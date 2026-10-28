@@ -3,8 +3,8 @@
 - **Instituição:** Fatec Sorocaba, Análise e Desenvolvimento de Sistemas.
 - **Equipe:** Arthur Mendes Entsev, Eduardo Kioshi Yasuoka, Gustavo Henrique Oliveira da Silva e Thiago Pereira Cortez.
 - **Base documental:** [requisitos funcionais](fontes/RequisitosFuncionais_ANG.pdf), pp. 3–4; [estudo](../academico/fontes/2209ANG.pdf), pp. 4–8 e 14–18.
-- **Versão desta consolidação:** 2026-10-27. Requisitos transpostos dos documentos; aceite formal não fornecido.
-- **Origem declarada no estudo:** coleta de informações com responsáveis pela ANG, análise de processos e pesquisa de similares (p. 15).
+- **Versão desta consolidação:** 2026-10-27. Requisitos retirados dos documentos.
+- **Origem declarada no estudo:** coleta de informações com responsáveis pela ANG(p. 15).
 
 ## 1. Requisitos funcionais
 
