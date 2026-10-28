@@ -16,23 +16,16 @@ Projeto acadêmico de **Análise e Desenvolvimento de Sistemas · Fatec Sorocaba
 ## Identificação
 
 | Campo | Informação documentada |
+## 📋 Informações do Projeto
 |---|---|
-| Projeto | O-BRECHÓ — Projeto ANG |
-| Instituição / curso | Faculdade de Tecnologia de Sorocaba / Análise e Desenvolvimento de Sistemas |
-| Parceiro | Associação Nova Geração (ANG) |
-| Gestão da triagem | Aline, gestora citada no estudo da equipe |
-| Ano | 2026 |
-| Organização do repositório | [Template do professor André Souza](https://github.com/profAndreSouza/template_projeto_integrador), referência `3bdb36e777cc791a0ebb79b2d40ee2a6da127703` |
-| Orientador / turma / etapa exata | Não identificados nos arquivos fornecidos |
-
-| Integrante | Papel descrito no estudo |
-|---|---|
-| Arthur Mendes Entsev | Desenvolvedor Júnior |
-| Eduardo Kioshi Yasuoka | Tech Lead |
-| Gustavo Henrique Oliveira da Silva | UI/UX e Desenvolvedor Frontend Júnior |
-| Thiago Pereira Cortez | PM/PO Júnior |
-
-Fonte: [estudo da equipe, páginas 1 e 6](docs/academico/fontes/2209ANG.pdf). Os papéis documentados não equivalem a um registro individual de entregas. [Contexto, responsabilidades e estimativa de esforço](docs/academico/contexto-e-equipe.md).
+| **Projeto** | O-BRECHÓ — Associação Nova Geração (ANG) |
+| **Instituição** | Faculdade de Tecnologia de Sorocaba (FATEC Sorocaba) |
+| **Curso** | Análise e Desenvolvimento de Sistemas (ADS) |
+| **Equipe** | Arthur Mendes Entsev, Eduardo Kioshi Yasuoka, Gustavo Henrique Oliveira da Silva e Tiago Pereira Cortes |
+| **Cliente / Parceiro** | Associação Nova Geração (ANG) |
+| **Disciplina / Etapa** | Projeto Integrador (PI) |
+| **Ano** | 2026 |
+| **Última atualização** | 27/10/2026 |
 
 ## Resumo do projeto
 
@@ -50,16 +43,16 @@ A avaliação inclui verificação técnica, cenários funcionais e futura valid
 
 - Documentos reais da equipe: estudo de 31 páginas, atividade de acompanhamento, requisitos e documentação de 13 telas.
 - Aplicação React/TypeScript com login demonstrativo, painel, doações, triagem, catálogo, cadastro de peças, estoque, vendas, resumo financeiro, clientes e funcionários.
-- Modelo relacional de nove entidades, scripts SQL e persistência local no navegador.
+- Modelo relacional de nove entidades, scripts SQL.
 - Requisitos **RF01–RF08** e **RNF01–RNF10**, casos de uso, diagramas originais e rastreabilidade entre documentos e código.
 
 ### Fora do escopo ou ainda não iniciado
 
-Comércio eletrônico, entregas, múltiplas unidades, consignação e automação da triagem física estão fora da proposta inicial descrita no estudo (p. 14). Backend Express, integração PostgreSQL e Shadcn/UI aparecem como planejamento na atividade, mas não estão implementados no código atual. Agendamento é uma regra operacional documentada; não há módulo de agenda nesta versão. [Comparação de tecnologias e lacunas](docs/arquitetura/visao-arquitetural.md).
+Comércio eletrônico, entregas, múltiplas unidades, consignação e automação da triagem física estão fora da proposta inicial descrita no estudo (p. 14). Agendamento e integração de pagamento pela nossa aplicação estão fora do escopo. [Comparação de tecnologias e lacunas](docs/arquitetura/visao-arquitetural.md).
 
 ### Limitações, premissas e riscos
 
-Os documentos descrevem o produto desejado; a implementação atual ainda é demonstrativa. O `localStorage` não oferece banco compartilhado. O login aceita credenciais demonstrativas e a função de hash existente não implementa SHA-256 criptográfico. Os relatórios atuais não possuem o filtro de período exigido por RF08. A aprovação exclusiva pela gestora e a compatibilidade entre o SQL MySQL existente e o PostgreSQL planejado precisam ser resolvidas. [Lacunas rastreadas](docs/requisitos/rastreabilidade.md).
+Os documentos descrevem o produto desejado; a implementação atual ainda é demonstrativa. O `localStorage` não oferece banco compartilhado. O login aceita credenciais demonstrativas e a função de hash existente não implementa SHA-256 criptográfico. Os relatórios atuais não possuem o filtro de período exigido pela RF08. A aprovação exclusiva pela gestora e a compatibilidade entre o SQL MySQL existente e o PostgreSQL planejado precisam ser resolvidas. [Lacunas rastreadas](docs/requisitos/rastreabilidade.md).
 
 Os nomes de clientes, produtos, saldos e contatos apresentados nas telas e no seed são exemplos de demonstração, não registros operacionais reais da ANG. Os dados reais incorporados à documentação são aqueles presentes nos PDFs da equipe.
 
@@ -85,7 +78,7 @@ ANG/
 └── PRODUCT-BACKLOG.md
 ```
 
-Organização por componentes separados conforme o template. Os serviços TypeScript atuais executam no navegador e pertencem ao frontend. Pastas `backend/`, `mobile/` e `application/` serão pertinentes apenas se esses componentes forem implementados.
+Os serviços TypeScript atuais executam no navegador e pertencem ao frontend. Pastas `backend/`, `mobile/` e `application/` serão pertinentes apenas se esses componentes forem realmente usados.
 
 ## Componentes e evidências
 
