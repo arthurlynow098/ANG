@@ -1,0 +1,10 @@
+ID;Item;Prioridade proposta;Estado
+PB-01;Login demonstrativo;Alta;Implementado - aceite pendente
+PB-02;Doação e triagem;Alta;Implementado - aceite pendente
+PB-03;Catálogo e estoque;Alta;Implementado - aceite pendente
+PB-04;Vendas e relatórios;Alta;Implementado - aceite pendente
+PB-05;Clientes e equipe;Média;Implementado - aceite pendente
+PB-06;Backend e SQL;A definir;Proposto
+PB-07;Autenticação de produção;A definir;Proposto
+PB-08;Avaliação funcional e com parceiro;Alta;Planejado
+PB-09;Documento acadêmico e identificação;A definir;Pendente

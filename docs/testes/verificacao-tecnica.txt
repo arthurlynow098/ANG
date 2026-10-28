@@ -1,0 +1,25 @@
+Data: 2026-10-27
+Versão: reorganização inicial, antes do primeiro commit do ANG.
+Ambiente: Windows, Node v24.22.1, dependências locais existentes.
+Diretório de execução: frontend/
+
+Comando: .\node_modules\.bin\tsc.cmd --noEmit
+Resultado: código de saída 0, sem diagnósticos.
+
+Comando: npm.cmd run build
+Resultado: código de saída 0.
+Saída observada:
+> o-brecho-ang@1.0.0 build
+> vite build
+vite v6.4.5 building for production...
+57 modules transformed.
+dist/index.html                   0.67 kB | gzip: 0.40 kB
+dist/assets/index-BKdULNPQ.css   22.56 kB | gzip: 5.32 kB
+dist/assets/index-DFp7d7DI.js   224.01 kB | gzip: 64.52 kB
+built in 1.68s
+
+A primeira tentativa de build foi bloqueada pelo sandbox com spawn EPERM.
+A execução autorizada fora do sandbox concluiu com sucesso.
+
+Limitações: instalação limpa, execução SQL, cenários manuais e avaliação
+com usuários não foram executados. Build e tipos não comprovam esses fluxos.

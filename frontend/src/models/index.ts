@@ -1,0 +1,10 @@
+export type { Cliente } from './Cliente'
+export type { Funcionario } from './Funcionario'
+export type { Venda } from './Venda'
+export type { ItemVenda } from './ItemVenda'
+export type { Pagamento } from './Pagamento'
+export type { Doacao } from './Doacao'
+export type { Categoria } from './Categoria'
+export type { Produto } from './Produto'
+export type { Triagem } from './Triagem'
+

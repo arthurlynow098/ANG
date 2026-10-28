@@ -1,0 +1,2 @@
+export { AtendentesView } from './AtendentesView'
+

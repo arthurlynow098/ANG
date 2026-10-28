@@ -1,0 +1,2 @@
+export { InicioView } from './InicioView'
+

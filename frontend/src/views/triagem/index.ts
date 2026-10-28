@@ -1,0 +1,2 @@
+export { TriagemView } from './TriagemView'
+
