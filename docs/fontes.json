@@ -1,0 +1,47 @@
+[
+  {
+    "arquivo_original": "2209ANG.pdf",
+    "categoria": "academico",
+    "pdf": "docs/academico/fontes/2209ANG.pdf",
+    "capturas": "docs/academico/evidencias/estudo-ang",
+    "paginas": 31,
+    "sha256": "550813f6ce3269efa2a4529391314330ceade5f7f597d4ea3b11f9a8d2b303d2",
+    "copia_identica_ao_original": true
+  },
+  {
+    "arquivo_original": "Pi Atividade 29_09_26pdf.pdf",
+    "categoria": "continuidade",
+    "pdf": "docs/continuidade/fontes/Pi Atividade 29_09_26pdf.pdf",
+    "capturas": "docs/continuidade/evidencias/atividade-29-09-2026",
+    "paginas": 6,
+    "sha256": "61e286c6eb23ea6c109f85f76551a889eed18005be7ab0106e2c0acc4403c169",
+    "copia_identica_ao_original": true
+  },
+  {
+    "arquivo_original": "RequisitosFuncionais_ANG.pdf",
+    "categoria": "requisitos",
+    "pdf": "docs/requisitos/fontes/RequisitosFuncionais_ANG.pdf",
+    "capturas": "docs/requisitos/evidencias/requisitos-funcionais",
+    "paginas": 5,
+    "sha256": "dd0d59ea7fe8d6751aadc2f268b946c485f2756bdb87f6b06fe59de6b9eabf4b",
+    "copia_identica_ao_original": true
+  },
+  {
+    "arquivo_original": "telasANG.pdf",
+    "categoria": "prototipos",
+    "pdf": "docs/prototipos/fontes/telasANG.pdf",
+    "capturas": "docs/prototipos/evidencias/telas-ang",
+    "paginas": 17,
+    "sha256": "d1bccde534315362b489fadde20c2ba686d78c328f3f9427cf8627839356eb1d",
+    "copia_identica_ao_original": true
+  },
+  {
+    "arquivo_original": "Protocolo-de-Estudo.pdf",
+    "categoria": "apoio",
+    "pdf": "docs/apoio/fontes/Protocolo-de-Estudo.pdf",
+    "capturas": "docs/apoio/evidencias/protocolo-de-estudo",
+    "paginas": 1,
+    "sha256": "de7fadb4d5c45d01549a4c7236f83ae9a98b069883478050419f00de558d3223",
+    "copia_identica_ao_original": true
+  }
+]

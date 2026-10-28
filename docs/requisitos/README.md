@@ -1,18 +1,13 @@
 # Requisitos — O-BRECHÓ
 
-Inventário extraído do código em 2026-10-27, pendente de confirmação com equipe e parceiro. Não representa requisitos aprovados pelo cliente.
+Os identificadores oficiais dos documentos da equipe foram preservados: **RF01–RF08** e **RNF01–RNF10**.
 
-| ID | Comportamento existente | Evidência em frontend/src/ | Critério manual proposto |
-|---|---|---|---|
-| RF-01 | Acesso demonstrativo por usuário | services/authService.ts | CT-01: acessar e sair |
-| RF-02 | Receber doações e avaliar peças | views/triagem/, services/triagemService.ts | CT-02: receber, aprovar e descartar |
-| RF-03 | Cadastrar e consultar produtos e estoque | views/produtos/ | CT-02: consultar peça aprovada |
-| RF-04 | Registrar vendas, pagamento e relatórios | views/vendas/, services/vendaService.ts | CT-03: concluir venda e consultar relatório |
-| RF-05 | Manter clientes e consultar histórico | views/clientes/ | CT-04: cadastrar cliente e consultar histórico |
-| RF-06 | Manter funcionários e acessos | views/equipe/ | CT-04: cadastrar funcionário |
+- [Especificação preenchida](especificacao-requisitos.md): requisitos e regras documentadas.
+- [Matriz de rastreabilidade](rastreabilidade.md): fonte, caso de uso, código e lacunas.
+- [PDF de requisitos funcionais](fontes/RequisitosFuncionais_ANG.pdf): cinco páginas originais.
+- [Capturas das cinco páginas](evidencias/requisitos-funcionais/README.md).
+- [Estudo completo](../academico/fontes/2209ANG.pdf): RF nas pp. 15–17 e RNF nas pp. 17–18.
 
-## Qualidade e regras
+![Requisitos do relacionamento e da triagem — página 3 do PDF](evidencias/requisitos-funcionais/pagina-03.png)
 
-A aplicação usa interface web e armazenamento local. Compatibilidade, desempenho, acessibilidade e segurança de produção precisam de critérios acordados e validação própria. O DER e os serviços registram os estados de produto e triagem; as regras descritas no [DER](../der/DER.md) são referências da implementação existente, sem presumir aprovação externa.
-
-Roteiros e resultados: [testes](../testes/README.md). Priorização: [backlog](../../PRODUCT-BACKLOG.md). O arquivo `especificacao-requisitos-template.md` permanece como modelo de preenchimento do professor.
+A documentação distingue o requisito especificado pela equipe da funcionalidade realmente implementada. Não há termo de aceite anexado.

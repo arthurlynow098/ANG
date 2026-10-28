@@ -1,17 +1,27 @@
 # Product Backlog — O-BRECHÓ / ANG
 
-Objetivo: apoiar a operação de um brechó solidário. Inventário do código em 2026-10-27. Responsável: equipe ANG, integrantes a confirmar. Prioridades técnicas propostas, pendentes de acordo com a equipe.
+**Objetivo:** centralizar a operação do brechó e apoiar as atividades sociais da ANG. **Responsável previsto por produto:** Thiago Pereira Cortez, PM/PO Júnior no estudo (p. 6). **Revisão documental:** 2026-10-27.
 
-| ID | Item / necessidade | Prioridade proposta | Estado | Critério de conclusão | Vínculo / dependências |
-|---|---|---|---|---|---|
-| PB-01 | Login demonstrativo | Alta | Implementado; aceite pendente | Acessar e encerrar sessão | RF-01 / CT-01 |
-| PB-02 | Doação e triagem | Alta | Implementado; aceite pendente | Receber, aprovar e descartar peças | RF-02 / CT-02 |
-| PB-03 | Catálogo e estoque | Alta | Implementado; aceite pendente | Cadastrar e consultar peças | RF-03 / CT-02 |
-| PB-04 | Vendas e relatórios | Alta | Implementado; aceite pendente | Fechar venda e consultar relatório | RF-04 / CT-03 |
-| PB-05 | Clientes e equipe | Média | Implementado; aceite pendente | Manter cadastros e consultar histórico | RF-05, RF-06 / CT-04 |
-| PB-06 | Backend e integração SQL | A definir | Proposto | Definir API e integrar dados compartilhados | Depende de decisão da equipe |
-| PB-07 | Autenticação de produção | A definir | Proposto | Implementar autenticação de servidor | Depende de PB-06 e requisitos de segurança |
-| PB-08 | Avaliação funcional e com parceiro | Alta | Planejado | Executar roteiros e registrar resultados | docs/testes/ |
-| PB-09 | Documento acadêmico e identificação | A definir | Pendente | Elaborar documento institucional | Depende da equipe e orientação |
+Prioridades são propostas por dependência e risco, a revisar pela equipe. Papéis e requisitos vêm dos PDFs; o estado de implementação vem da inspeção do repositório. Nenhum item é considerado aceito pelo parceiro sem evidência.
 
-Implementado indica código existente; não presume teste nem aceite. Nenhum item está validado pelo cliente. Histórico: inventário inicial em 2026-10-27.
+| ID | Item / necessidade | Prioridade proposta | Estado | Critério de conclusão | Origem / vínculo | Dependências |
+|---|---|---|---|---|---|---|
+| PB-01 | Acesso e sessão demonstrativos | Alta | Implementado localmente; produção pendente | Verificar login e papéis; substituir acesso demonstrativo antes do uso real | RNF01, RNF02 | PB-07 |
+| PB-02 | Recebimento e triagem | Alta | Implementado parcialmente | Rastrear doação e resultado, assegurando regras de origem e aprovação | RF04, RF05 / CT-04, CT-05 | PB-12 |
+| PB-03 | Catálogo, categorias e estoque | Alta | Implementado; alinhamento pendente | Usar categorias documentadas e restringir catálogo às peças aprovadas | RF06 / CT-06 | RF04, RF05 |
+| PB-04 | Vendas e resumo financeiro | Alta | Implementado parcialmente | Conferir baixa, pagamentos e cálculos de venda; completar consulta por período | RF07, RF08 / CT-07, CT-08 | PB-11 |
+| PB-05 | Clientes e equipe | Média | Implementado localmente; validação pendente | Manter cadastros e validar acesso e histórico | RF01, RF02, RF03 / CT-01 a CT-03 | PB-10, PB-07 |
+| PB-06 | Backend e persistência compartilhada | Alta | Planejado na atividade | Implementar API e integrar banco adotado; testar relações e persistência | RNF05, RNF06, RNF07 | PB-13 |
+| PB-07 | Autenticação e autorização de produção | Alta | Pendente | Remover permissões e senha demonstrativas como mecanismo de acesso real | RNF01, RNF02 | PB-06 |
+| PB-08 | Validação funcional e com a ANG | Alta | Planejado | Executar cenários, registrar versão e resultados; organizar avaliação com parceiro | CT-01 a CT-08 / RNF03, RNF04, RNF08, RNF09 | Versão a avaliar |
+| PB-09 | Consolidação acadêmica e referências | Média | Documentos organizados; entrega final pendente | Completar referências, orientação, etapa e documento final conforme disciplina | Estudo e atividade | Equipe e orientação |
+| PB-10 | Agrupamento do histórico por categoria | Média | Pendente | Apresentar compras agrupadas pelas categorias dos produtos | RF02 / UC02 / CT-02 | Histórico existente |
+| PB-11 | Relatório por dia e período | Alta | Pendente | Selecionar período e obter quantidade de itens e receita coerentes | RF08 / UC08 / CT-08 | Vendas e pagamentos |
+| PB-12 | Aprovação exclusiva e origem das peças | Alta | Pendente | Conciliar registro interno pendente, catálogo comercial e aprovação pela gestora | RN01, RN02, RN03 / RF04, RF05 | Decisão de regra e PB-07 |
+| PB-13 | Conciliar PostgreSQL planejado e SQL existente | Alta | Decisão e adaptação pendentes | Revisar sintaxe MySQL e adotar migração compatível com banco escolhido | Atividade p. 6 / RNF05 | Decisão técnica da equipe |
+
+## Refinamento e histórico
+
+Os IDs PB-01–PB-09 mantêm os temas da primeira publicação. A consolidação com os PDFs acrescenta PB-10–PB-13 para lacunas comprovadas na comparação. Agendamento permanece regra operacional, sem novo módulo presumido. Shadcn/UI é tecnologia prevista, não dependência instalada.
+
+Estados distinguem planejamento, implementação local e validação. Fontes: [requisitos](docs/requisitos/especificacao-requisitos.md), [atividade](docs/continuidade/README.md), [lacunas](docs/requisitos/rastreabilidade.md).

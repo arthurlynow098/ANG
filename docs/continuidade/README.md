@@ -1,15 +1,8 @@
-# Continuidade — O-BRECHÓ
+# Continuidade e evolução
 
-## Linha de base recebida
+- [Linha de base, mudanças e responsabilidades](linha-de-base-e-evolucao.md).
+- [Atividade original](fontes/Pi%20Atividade%2029_09_26pdf.pdf), seis páginas.
+- [Capturas completas da atividade](evidencias/atividade-29-09-2026/README.md).
+- [Papéis e contribuições documentadas](contribuicoes.csv).
 
-Em 2026-10-27 havia uma aplicação React/TypeScript em `src/`, arquivos de configuração na raiz, scripts em `database/`, `docs/DER.md`, `docs/ARQUITETURA.md` e `Protótipo_inicial_0.html`. Não havia histórico Git local. Semestre de origem, equipe e autoria individual não foram informados.
-
-## Alterações desta organização
-
-- Código e configuração movidos para `frontend/`, mantendo a estrutura interna.
-- SQL movido para `data/database/`.
-- DER, arquitetura e protótipo separados nas categorias do professor.
-- README, backlog e documentação de apoio preparados com fatos observáveis e pendências explícitas.
-- Modelo institucional e formulários do template preservados.
-
-Não se atribui a criação do código existente a esta reorganização. Resultados técnicos em [testes](../testes/README.md). Preencher contribuições individuais somente com evidências reais.
+O arquivo da atividade registra o estado de análise e planejamento e descreve a stack pretendida. O repositório atual já possui frontend React demonstrativo, mas não backend e integração relacional. O período exato da disciplina e a distribuição individual de entregas não foram comprovados pelos arquivos.

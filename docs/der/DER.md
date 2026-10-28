@@ -1,14 +1,14 @@
 # Diagrama Entidade-Relacionamento (DER) — O-BRECHÓ (Projeto ANG)
 
-Este documento descreve a modelagem relacional oficial do sistema **O-BRECHÓ**, composta estritamente por **9 tabelas**.
+Este documento descreve a modelagem relacional existente do sistema **O-BRECHÓ**, composta estritamente por **9 tabelas**.
 
 ```mermaid
 erDiagram
     CLIENTE ||--o{ VENDA : compra
     FUNCIONARIO ||--o{ VENDA : registra
     VENDA ||--|{ ITEM_VENDA : possui
-    VENDA ||--|| PAGAMENTO : quitada_por
-    PRODUTO ||--o| ITEM_VENDA : vendido_em
+    VENDA ||--o| PAGAMENTO : quitada_por
+    PRODUTO ||--o{ ITEM_VENDA : vendido_em
     CATEGORIA |o--o{ PRODUTO : classifica
     DOACAO ||--o{ TRIAGEM : origina
     PRODUTO ||--o{ TRIAGEM : avaliado_em
@@ -100,3 +100,11 @@ erDiagram
    - Registra a quitação em `PAGAMENTO` (`metodo`, `valor`, `data`).
    - Atualiza `PRODUTO.status = 'vendido'`.
 
+
+## Origem e limites das restrições
+
+O modelo de classes original da equipe está em [arquitetura](../arquitetura/diagrama-classes.md), extraído da página 31 do estudo. Ele contém Agendamento e Relatorio, conceitos ausentes nas nove tabelas existentes.
+
+PAGAMENTO.venda_id é único, mas o SQL não força a existência de um pagamento para cada venda. ITEM_VENDA não possui UNIQUE em produto_id; a intenção de venda única por peça depende da aplicação. As cardinalidades acima refletem esses limites.
+
+O [dicionário completo](dicionario-de-dados.md) descreve as restrições efetivas. A migração existente tem sintaxe MySQL, ainda sem conexão com o frontend, enquanto o planejamento da equipe cita PostgreSQL.

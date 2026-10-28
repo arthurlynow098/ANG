@@ -1,20 +1,10 @@
 # Arquitetura — O-BRECHÓ
 
-## Visão atual
+- [Visão arquitetural](visao-arquitetural.md): componentes implementados e stack planejada.
+- [Classes de domínio](diagrama-classes.md): imagem original, entidades e diferenças para o SQL.
+- [Organização em camadas](ARQUITETURA.md): descrição da estrutura React.
+- [DER e dicionário](../der/README.md): estrutura dos nove registros atuais.
 
-```mermaid
-flowchart LR
-  U[Usuário] --> V[Views e componentes React]
-  V --> C[Contexto e hooks]
-  C --> S[Serviços TypeScript]
-  C --> R[BrechoRepository]
-  S --> R
-  R --> L[localStorage do navegador]
-  M[Dados iniciais mockData] --> R
-```
+![Modelo de domínio original da equipe](imagens/diagrama-classes-original.jpeg)
 
-Código em `frontend/src/`: models/types descrevem entidades; repositories persistem localmente; services agrupam regras; context/hooks compartilham estado; views/components apresentam a interface. Não existe backend nesta versão. Scripts em `data/database/` não são executados pelo frontend.
-
-A [descrição herdada](ARQUITETURA.md) foi preservada com caminhos atualizados. O acesso é demonstrativo: a função de hash não é SHA-256 criptográfico e o serviço permite a senha padrão. Evolução para produção depende de backend e requisitos próprios.
-
-Modelos `-template` foram preservados como referência do professor.
+Fonte: estudo `2209ANG.pdf`, página 31. O modelo conceitual contém Agendamento e Relatorio, ausentes no banco e nos tipos atuais; não representa uma lista de classes já implementadas.

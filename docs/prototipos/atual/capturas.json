@@ -1,0 +1,99 @@
+{
+  "data": "2026-10-27",
+  "navegador": "Chrome/144.0.7559.110",
+  "metodo": "Capturas reais via Chrome DevTools Protocol, sem alteração de layout",
+  "escopo": "Inspeção visual e navegação; nenhuma doação, venda ou cadastro foi confirmado",
+  "erros_javascript_observados": [],
+  "capturas": [
+    {
+      "arquivo": "01-login.png",
+      "tela": "Login atual",
+      "titulo_observado": "O Brechó",
+      "versao": "React do commit c8ec5a8; código inalterado",
+      "dados": "Seed de demonstração em perfil isolado",
+      "viewport": "1440 x 1000",
+      "url": "http://127.0.0.1:5174/"
+    },
+    {
+      "arquivo": "02-inicio.png",
+      "tela": "Painel inicial atual",
+      "titulo_observado": "Bom trabalho, Mariana!",
+      "versao": "React do commit c8ec5a8; código inalterado",
+      "dados": "Seed de demonstração em perfil isolado",
+      "viewport": "1440 x 1000",
+      "url": "http://127.0.0.1:5174/"
+    },
+    {
+      "arquivo": "03-triagem.png",
+      "tela": "Triagem atual",
+      "titulo_observado": "Triagem de Doações",
+      "versao": "React do commit c8ec5a8; código inalterado",
+      "dados": "Seed de demonstração em perfil isolado",
+      "viewport": "1440 x 1000",
+      "url": "http://127.0.0.1:5174/"
+    },
+    {
+      "arquivo": "04-produtos.png",
+      "tela": "Catálogo atual",
+      "titulo_observado": "Produtos Disponíveis na Loja",
+      "versao": "React do commit c8ec5a8; código inalterado",
+      "dados": "Seed de demonstração em perfil isolado",
+      "viewport": "1440 x 1000",
+      "url": "http://127.0.0.1:5174/"
+    },
+    {
+      "arquivo": "05-cadastro-produto.png",
+      "tela": "Formulário atual de produto",
+      "titulo_observado": "Cadastrar Produto",
+      "versao": "React do commit c8ec5a8; código inalterado",
+      "dados": "Seed de demonstração em perfil isolado",
+      "viewport": "1440 x 1000",
+      "url": "http://127.0.0.1:5174/"
+    },
+    {
+      "arquivo": "06-venda.png",
+      "tela": "Formulário atual de venda, sem confirmação",
+      "titulo_observado": "Finalizar Venda",
+      "versao": "React do commit c8ec5a8; código inalterado",
+      "dados": "Seed de demonstração em perfil isolado",
+      "viewport": "1440 x 1000",
+      "url": "http://127.0.0.1:5174/"
+    },
+    {
+      "arquivo": "07-clientes.png",
+      "tela": "Clientes de demonstração",
+      "titulo_observado": "Clientes",
+      "versao": "React do commit c8ec5a8; código inalterado",
+      "dados": "Seed de demonstração em perfil isolado",
+      "viewport": "1440 x 1000",
+      "url": "http://127.0.0.1:5174/"
+    },
+    {
+      "arquivo": "08-estoque.png",
+      "tela": "Estoque de demonstração",
+      "titulo_observado": "Estoque de Peças",
+      "versao": "React do commit c8ec5a8; código inalterado",
+      "dados": "Seed de demonstração em perfil isolado",
+      "viewport": "1440 x 1000",
+      "url": "http://127.0.0.1:5174/"
+    },
+    {
+      "arquivo": "09-resumo-caixa.png",
+      "tela": "Resumo financeiro de demonstração",
+      "titulo_observado": "Resumo do Brechó",
+      "versao": "React do commit c8ec5a8; código inalterado",
+      "dados": "Seed de demonstração em perfil isolado",
+      "viewport": "1440 x 1000",
+      "url": "http://127.0.0.1:5174/"
+    },
+    {
+      "arquivo": "10-equipe.png",
+      "tela": "Equipe de demonstração",
+      "titulo_observado": "Equipe de Funcionários",
+      "versao": "React do commit c8ec5a8; código inalterado",
+      "dados": "Seed de demonstração em perfil isolado",
+      "viewport": "1440 x 1000",
+      "url": "http://127.0.0.1:5174/"
+    }
+  ]
+}

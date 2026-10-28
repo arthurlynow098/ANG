@@ -1,7 +1,9 @@
-# Modelo de dados — O-BRECHÓ
+# Dados e modelo relacional
 
-O [DER existente](DER.md) representa nove entidades: CLIENTE, FUNCIONARIO, CATEGORIA, DOACAO, PRODUTO, TRIAGEM, VENDA, ITEM_VENDA e PAGAMENTO.
+- [DER](DER.md): nove entidades e fluxo operacional atual.
+- [Dicionário completo](dicionario-de-dados.md): todas as colunas, tipos, nulabilidade, valores padrão e chaves da migração existente.
+- [Migração SQL](../../data/database/migrations/001_init_schema.sql).
+- [Carga SQL](../../data/database/seeds/001_initial_data.sql).
+- [Modelo de classes original](../arquitetura/diagrama-classes.md): inclui conceitos ainda não implementados.
 
-As colunas, tipos SQL, nulabilidade e restrições estão definidos na [migração](../../data/database/migrations/001_init_schema.sql). Os tipos usados pelo frontend ficam em `frontend/src/models/`.
-
-O DER é a modelagem relacional planejada. A persistência efetiva desta versão é localStorage, não um banco SQL. Arquivos `-template` são modelos do professor para ampliar e revisar a documentação.
+O SQL existente usa sintaxe MySQL. O planejamento cita PostgreSQL e ainda precisa ser conciliado com esses arquivos. A aplicação atual persiste em localStorage e não executa a migração. O DER descreve a estrutura implementada em tipos e SQL, sem substituir a imagem conceitual da equipe.

@@ -1,30 +1,27 @@
-# Arquitetura do Projeto — O-BRECHÓ (Projeto ANG)
+# Organização em camadas — O-BRECHÓ
 
-O projeto segue uma arquitetura modular em camadas para garantir separação de responsabilidades, fácil manutenção e aderência estrita ao modelo relacional (DER).
-
-## Estrutura de Pastas
+O frontend atual executa inteiramente no navegador. Separar serviços e repositório no TypeScript não cria um backend ou banco relacional.
 
 ```text
-ANG/
-├── data/database/                  # Scripts SQL de migração e carga inicial
-│   ├── migrations/            # DDL das 9 tabelas relacionais
-│   └── seeds/                 # Dados iniciais em SQL
-├── docs/                      # Documentação técnica e DER
-├── frontend/src/
-│   ├── models/                # Interfaces TypeScript das 9 entidades do DER
-│   ├── repositories/          # Camada de acesso a dados e persistência relacional
-│   ├── services/              # Regras de negócio (Autenticação, Triagem, Vendas)
-│   ├── context/               # Provedor de estado global da aplicação
-│   ├── hooks/                 # Hooks customizados (useBrecho)
-│   ├── components/            # Componentes visuais reutilizáveis
-│   ├── views/                 # Telas organizadas em 6 setores de domínio
-│   │   ├── inicio/            # Painel inicial e indicadores rápidos
-│   │   ├── triagem/           # Recebimento de doações e avaliação de peças
-│   │   ├── produtos/          # Catálogo da loja, cadastro direto e estoque
-│   │   ├── vendas/            # Fechamento de venda (PDV/negociação) e caixa
-│   │   ├── clientes/          # Cadastro de clientes e histórico de compras
-│   │   ├── equipe/            # Gestão de funcionários e acessos
-│   │   └── index.ts           # Exportação centralizada dos setores
-│   ├── utils/                 # Validações e formatadores (telefone, moeda, e-mail)
-│   └── data/                  # Sementes de dados em memória e schema de referência
+frontend/src/
+├── models/          # Interfaces das nove entidades
+├── types/           # Tipos e compatibilidade de importação
+├── repositories/    # BrechoRepository e localStorage
+├── services/        # AuthService, TriagemService e VendaService
+├── context/         # Estado e operações compartilhadas
+├── hooks/           # Acesso ao contexto
+├── components/      # Login, navegação, feedback e layout
+├── views/
+│   ├── inicio/
+│   ├── triagem/
+│   ├── produtos/
+│   ├── vendas/
+│   ├── clientes/
+│   └── equipe/
+├── utils/           # Formatação e validação
+└── data/            # Dados de demonstração e schema de referência
 ```
+
+Scripts SQL ficam em `data/database/`, na raiz do repositório. Documentos e fontes ficam em `docs/`. A separação respeita o template do professor e mantém o código executável em uma única pasta.
+
+Consulte a [visão arquitetural](visao-arquitetural.md) para responsabilidades, tecnologias planejadas e limites, e o [modelo original de classes](diagrama-classes.md) para diferenças entre planejamento e implementação.

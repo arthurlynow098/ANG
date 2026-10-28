@@ -32,3 +32,8 @@ dist-ssr
 .env.*
 !.env.example
 *.tsbuildinfo
+
+# Ferramentas e arquivos de trabalho locais
+.tools/
+.work/
+Dados/
