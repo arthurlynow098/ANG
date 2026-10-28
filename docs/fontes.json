@@ -34,14 +34,5 @@
     "paginas": 17,
     "sha256": "d1bccde534315362b489fadde20c2ba686d78c328f3f9427cf8627839356eb1d",
     "copia_identica_ao_original": true
-  },
-  {
-    "arquivo_original": "Protocolo-de-Estudo.pdf",
-    "categoria": "apoio",
-    "pdf": "docs/apoio/fontes/Protocolo-de-Estudo.pdf",
-    "capturas": "docs/apoio/evidencias/protocolo-de-estudo",
-    "paginas": 1,
-    "sha256": "de7fadb4d5c45d01549a4c7236f83ae9a98b069883478050419f00de558d3223",
-    "copia_identica_ao_original": true
   }
 ]

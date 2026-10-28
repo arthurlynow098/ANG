@@ -16,7 +16,6 @@ SOURCES = [
     ('Pi Atividade 29_09_26pdf.pdf', 'continuidade', 'atividade-29-09-2026'),
     ('RequisitosFuncionais_ANG.pdf', 'requisitos', 'requisitos-funcionais'),
     ('telasANG.pdf', 'prototipos', 'telas-ang'),
-    ('Protocolo-de-Estudo.pdf', 'apoio', 'protocolo-de-estudo'),
 ]
 SCREEN_NAMES = [
     '01-autenticacao', '02-credenciais-invalidas', '03-inicio-administrador',

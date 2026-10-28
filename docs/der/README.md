@@ -6,4 +6,4 @@
 - [Carga SQL](../../data/database/seeds/001_initial_data.sql).
 - [Modelo de classes original](../arquitetura/diagrama-classes.md): inclui conceitos ainda não implementados.
 
-O SQL existente usa sintaxe MySQL. O planejamento cita PostgreSQL e ainda precisa ser conciliado com esses arquivos. A aplicação atual persiste em localStorage e não executa a migração. O DER descreve a estrutura implementada em tipos e SQL, sem substituir a imagem conceitual da equipe.
+O SQL existente usa sintaxe MySQL. O planejamento cita PostgreSQL e ainda precisa ser alinhado com esses arquivos. A aplicação atual salva os dados no navegador (localStorage) e não executa a migração. O DER descreve a estrutura implementada em tipos e SQL, sem substituir a desenho do modelo da equipe.

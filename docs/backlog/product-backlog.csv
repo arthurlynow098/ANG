@@ -7,7 +7,7 @@ PB-05;Clientes e equipe;Média;"Implementado localmente; validação pendente";R
 PB-06;Backend e persistência compartilhada;Alta;Planejado na atividade;RNF05, RNF06, RNF07;"Implementar API e integrar banco adotado; testar relações e persistência";PB-13
 PB-07;Autenticação e autorização de produção;Alta;Pendente;RNF01, RNF02;Remover permissões e senha demonstrativas como mecanismo de acesso real;PB-06
 PB-08;Validação funcional e com a ANG;Alta;Planejado;CT-01 a CT-08 / RNF03, RNF04, RNF08, RNF09;"Executar cenários, registrar versão e resultados; organizar avaliação com parceiro";Versão a avaliar
-PB-09;Consolidação acadêmica e referências;Média;"Documentos organizados; entrega final pendente";Estudo e atividade;Completar referências, orientação, etapa e documento final conforme disciplina;Equipe e orientação
+PB-09;Revisão do trabalho acadêmico e referências;Média;"Documentos organizados; entrega final pendente";Estudo e atividade;Completar referências, orientação, etapa e documento final conforme disciplina;Equipe e orientação
 PB-10;Agrupamento do histórico por categoria;Média;Pendente;RF02 / UC02 / CT-02;Apresentar compras agrupadas pelas categorias dos produtos;Histórico existente
 PB-11;Relatório por dia e período;Alta;Pendente;RF08 / UC08 / CT-08;Selecionar período e obter quantidade de itens e receita coerentes;Vendas e pagamentos
 PB-12;Aprovação exclusiva e origem das peças;Alta;Pendente;RN01, RN02, RN03 / RF04, RF05;Conciliar registro interno pendente, catálogo comercial e aprovação pela gestora;Decisão de regra e PB-07

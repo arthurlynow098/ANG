@@ -1,6 +1,6 @@
 # Capturas — RequisitosFuncionais_ANG.pdf
 
-Fonte: [RequisitosFuncionais_ANG.pdf](../../fontes/RequisitosFuncionais_ANG.pdf). Páginas renderizadas diretamente do PDF, sem redesenho.
+Fonte: [RequisitosFuncionais_ANG.pdf](../../fontes/RequisitosFuncionais_ANG.pdf). Páginas renderizadas diretamente do PDF, sem alterar a imagem.
 
 ## Página 1
 

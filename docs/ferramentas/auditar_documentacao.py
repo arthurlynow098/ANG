@@ -32,9 +32,21 @@ def main():
     if not REPORT.exists():
         REPORT.write_text('{}\n', encoding='utf-8')
     links = 0
+    tables = 0
     for path in files:
         source = path.read_text(encoding='utf-8')
         source = re.sub(r'```.*?```', '', source, flags=re.S)
+        table_width = None
+        for number, line in enumerate(source.splitlines(), 1):
+            if line.startswith('|'):
+                width = len(re.split(r'(?<!\\)\|', line.strip().strip('|')))
+                if table_width is None:
+                    table_width = width
+                    tables += 1
+                elif width != table_width:
+                    problems.append(f'Tabela desalinhada: {path.relative_to(ROOT)}:{number}')
+            else:
+                table_width = None
         for raw in re.findall(r'!?\[[^\]]*\]\(([^\n)]+)\)', source):
             target = raw.strip().strip('<>')
             parsed = urlsplit(target)
@@ -51,6 +63,8 @@ def main():
         if re.search(r'Projeto Exemplo|PB-EX-01|EXEMPLO-FICTICIO|Estoque Escolar', source):
             problems.append(f'Exemplo não preenchido: {path.relative_to(ROOT)}')
     manifest = json.loads((ROOT / 'docs/fontes.json').read_text(encoding='utf-8'))
+    if len(manifest) != 4:
+        problems.append('O índice deve conter os quatro documentos do projeto')
     pages = 0
     for item in manifest:
         path = ROOT / item['pdf']
@@ -80,7 +94,7 @@ def main():
     for item in current['capturas']:
         if not (ROOT / 'docs/prototipos/atual' / item['arquivo']).exists():
             problems.append(f'Captura React ausente: {item["arquivo"]}')
-    if len(prototypes) != 13 or len(current['capturas']) != 10 or pages != 60:
+    if len(prototypes) != 13 or len(current['capturas']) != 10 or pages != 59:
         problems.append('Quantidade inesperada de evidências')
     with (ROOT / 'docs/backlog/product-backlog.csv').open(encoding='utf-8', newline='') as file:
         backlog = list(csv.DictReader(file, delimiter=';'))
@@ -91,6 +105,7 @@ def main():
             problems.append(f'Item sem correspondência: {item["ID"]}')
     report = {'data': '2026-10-27', 'tipo': 'Auditoria documental, sem execução de regras comerciais',
               'markdowns_conferidos': len(files), 'links_locais_conferidos': links,
+              'tabelas_conferidas': tables,
               'pdfs_integros': len(manifest), 'paginas_capturadas': pages,
               'telas_extraidas_do_pdf': len(prototypes), 'telas_react_capturadas': len(current['capturas']),
               'imagens_validas': len(images), 'itens_backlog_csv': len(backlog),

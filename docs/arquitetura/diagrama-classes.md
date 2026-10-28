@@ -4,7 +4,7 @@
 
 ![Diagrama de classes extraído da página 31](imagens/diagrama-classes-original.jpeg)
 
-Fonte: [estudo, página 31](../academico/fontes/2209ANG.pdf). A imagem foi extraída diretamente do PDF.
+Fonte: [Ver página 31](../academico/evidencias/estudo-ang/pagina-31.png). A imagem foi extraída diretamente do PDF.
 
 ## Responsabilidades
 

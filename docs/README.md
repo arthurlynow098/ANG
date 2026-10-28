@@ -1,6 +1,6 @@
 # Documentação — O-BRECHÓ / ANG
 
-Documentação da equipe de ADS da Fatec Sorocaba, organizada segundo o template do Projeto Integrador. Conteúdo consolidado a partir dos cinco PDFs entregues em `Dados/`, com cópias integrais, capturas e referência às páginas de origem.
+Documentação da equipe de ADS da Fatec Sorocaba, organizada segundo o template do Projeto Integrador. As informações vêm dos quatro PDFs da equipe. Cada assunto tem links para o documento e para as páginas usadas como fonte.
 
 ## Navegação
 
@@ -16,16 +16,15 @@ Documentação da equipe de ADS da Fatec Sorocaba, organizada segundo o template
 | Decisões | Organização do repositório, origem das informações e lacunas | [Registros](decisoes/README.md) |
 | Continuidade | Atividade anterior, linha de base e evolução do projeto | [Histórico](continuidade/README.md) |
 | Planejamento | Backlog priorizado e índice CSV | [Backlog](../PRODUCT-BACKLOG.md) |
-| Apoio pessoal | Protocolo de estudo fornecido, separado das regras do produto | [Material de apoio](apoio/README.md) |
 
-## Fontes e evidências visuais
+## Documentos e imagens
 
-[Catálogo das cinco fontes](fontes.md) · [Manifesto de integridade](fontes.json) · [Como reproduzir as capturas](ferramentas/README.md)
+[Os quatro documentos do projeto](fontes.md) · [Como reproduzir as capturas](ferramentas/README.md)
 
-Foram renderizadas **60 páginas** diretamente dos PDFs e extraídas **13 imagens de telas** e **três imagens de diagramas**. Também foram produzidas [dez capturas reais da aplicação React atual](prototipos/atual/README.md). As galerias de cada fonte permitem conferir o documento sem baixar o PDF. A galeria HTML documenta uma versão anterior; a galeria React registra navegação visual, sem confirmar operações comerciais.
+As **59 páginas dos PDFs** estão disponíveis como imagens. Separamos também as **13 telas** e os **três diagramas** desses documentos. As [dez telas atuais do React](prototipos/atual/README.md) ficam em outra galeria. Todas as telas usam dados de exemplo.
 
 ## Documento acadêmico
 
-O [estudo de 31 páginas](academico/fontes/2209ANG.pdf) reúne contexto, referencial teórico, requisitos e modelos. Foi mantido com seu nome original, sem tratá-lo como versão final aprovada da monografia. O [modelo institucional DOCX](TG-Template-ADS-formato-academico%201-v1.docx) foi preservado. Não foi fornecido um DOCX de autoria da equipe nem uma aprovação acadêmica final.
+O [estudo da equipe](academico/README.md) reúne contexto, pesquisa, requisitos e modelos. O [modelo institucional em Word](TG-Template-ADS-formato-academico%201-v1.docx) também está disponível para preparar a versão final do trabalho.
 
-Os formulários Markdown que continham exemplos do template foram preenchidos com as informações do ANG e receberam nomes próprios. Dúvidas ou atividades futuras permanecem explicitadas, sem resultados inventados.
+As páginas estão preenchidas com as informações do ANG. O que ainda falta fazer aparece como pendente.

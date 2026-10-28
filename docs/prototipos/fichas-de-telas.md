@@ -1,8 +1,8 @@
 # Galeria e fichas das 13 telas
 
-**Plataforma:** web. **Fonte:** [telasANG.pdf](fontes/telasANG.pdf). **Estado:** protótipo HTML documentado pela equipe em 2026, sem aceite anexado. Os nomes e números são dados de demonstração. As imagens são os bytes extraídos do PDF, sem redesenho.
+**Plataforma:** web. **Fonte:** [telasANG.pdf](fontes/telasANG.pdf). **Estado:** protótipo HTML documentado pela equipe em 2026, sem aceite anexado. Os nomes e números são dados de demonstração. As imagens são os bytes extraídos do PDF, sem alterar a imagem.
 
-Os números de página abaixo indicam posição física no PDF, não a numeração impressa.
+Os números de página abaixo indicam ordem das páginas no arquivo, não a numeração impressa.
 
 | Tela | Página | Requisito / fluxo |
 |---|---:|---|
@@ -26,11 +26,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Autenticação — captura original](imagens/01-autenticacao.png)
 
-**Origem:** página 4 do PDF. **Rastreio:** RNF01.
+**Origem:** página 4 do PDF. **Requisito:** RNF01.
 
-**Componentes e comportamento documentados:** Campos Usuário e Senha, botão Entrar e nota com credenciais de demonstração. Após login válido, apresenta Início.
+**O que aparece e como funciona:** Campos Usuário e Senha, botão Entrar e nota com credenciais de demonstração. Após login válido, apresenta Início.
 
-**Relação com a implementação atual:** Login React em components/Login.tsx; continua demonstrativo.
+**Como está no sistema atual:** Login React em components/Login.tsx; continua demonstrativo.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-04.png).
 
@@ -40,11 +40,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Credenciais inválidas — captura original](imagens/02-credenciais-invalidas.png)
 
-**Origem:** página 5 do PDF. **Rastreio:** RNF01.
+**Origem:** página 5 do PDF. **Requisito:** RNF01.
 
-**Componentes e comportamento documentados:** Mensagem de erro no login; permanece fora das páginas internas e permite corrigir as credenciais.
+**O que aparece e como funciona:** Mensagem de erro no login; permanece fora das páginas internas e permite corrigir as credenciais.
 
-**Relação com a implementação atual:** A mensagem e a validação do React têm implementação própria em AuthService; não inferir equivalência só pela captura.
+**Como está no sistema atual:** O React usa sua própria mensagem de erro e sua própria verificação de login. [Ver código do login](../../frontend/src/services/authService.ts).
 
 [Conferir a página completa](evidencias/telas-ang/pagina-05.png).
 
@@ -54,11 +54,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Início — Administrador — captura original](imagens/03-inicio-administrador.png)
 
-**Origem:** página 6 do PDF. **Rastreio:** Navegação / RNF04.
+**Origem:** página 6 do PDF. **Requisito:** Navegação / RNF04.
 
-**Componentes e comportamento documentados:** Painel com atalhos e indicadores de 128 produtos, 42 vendas, 31 clientes e receita de R$ 1.284, todos demonstrativos.
+**O que aparece e como funciona:** Painel com atalhos e indicadores de 128 produtos, 42 vendas, 31 clientes e receita de R$ 1.284, todos demonstrativos.
 
-**Relação com a implementação atual:** O React usa views/inicio/InicioView.tsx com seus próprios dados e menu; não são números reais da ANG.
+**Como está no sistema atual:** O React usa views/inicio/InicioView.tsx com seus próprios dados e menu; não são números reais da ANG.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-06.png).
 
@@ -68,11 +68,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Produtos — captura original](imagens/04-produtos.png)
 
-**Origem:** página 7 do PDF. **Rastreio:** RF06, RF07 / UC06, UC07.
+**Origem:** página 7 do PDF. **Requisito:** RF06, RF07 / UC06, UC07.
 
-**Componentes e comportamento documentados:** Busca por nome, filtro de categoria, cartões com preço e quantidade, cadastro e ação Dar baixa / vender. Esgotados ficam desabilitados.
+**O que aparece e como funciona:** Busca por nome, filtro de categoria, cartões com preço e quantidade, cadastro e ação Dar baixa / vender. Esgotados ficam desabilitados.
 
-**Relação com a implementação atual:** O React organiza peças unitárias e seus estados em views/produtos/ProdutosView.tsx.
+**Como está no sistema atual:** O React organiza peças unitárias e seus estados em views/produtos/ProdutosView.tsx.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-07.png).
 
@@ -82,11 +82,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Cadastro de produto — captura original](imagens/05-cadastro-produto.png)
 
-**Origem:** página 8 do PDF. **Rastreio:** RF06 / UC06.
+**Origem:** página 8 do PDF. **Requisito:** RF06 / UC06.
 
-**Componentes e comportamento documentados:** Nome, categoria, preço e quantidade inicial obrigatórios; descrição opcional; cancelar retorna ao catálogo.
+**O que aparece e como funciona:** Nome, categoria, preço e quantidade inicial obrigatórios; descrição opcional; cancelar retorna ao catálogo.
 
-**Relação com a implementação atual:** React acrescenta características e localização em CadastroProdutoView.tsx; cadastro direto precisa ser conciliado com doação e aprovação obrigatórias.
+**Como está no sistema atual:** React acrescenta características e localização em CadastroProdutoView.tsx; cadastro direto precisa ser alinhado com doação e aprovação obrigatórias.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-08.png).
 
@@ -96,11 +96,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Nova venda — cliente cadastrado — captura original](imagens/06-venda-cliente-cadastrado.png)
 
-**Origem:** página 9 do PDF. **Rastreio:** RF07 / UC07.
+**Origem:** página 9 do PDF. **Requisito:** RF07 / UC07.
 
-**Componentes e comportamento documentados:** Seleciona produtos, compõe carrinho, escolhe cliente e meio de pagamento, verifica quantidade e finaliza com baixa do estoque.
+**O que aparece e como funciona:** Seleciona produtos, compõe carrinho, escolhe cliente e meio de pagamento, verifica quantidade e finaliza com baixa do estoque.
 
-**Relação com a implementação atual:** React permite negociação por peça e total e emite comprovante; a consistência financeira precisa de cenário funcional próprio.
+**Como está no sistema atual:** React permite negociação por peça e total e emite comprovante; a consistência financeira precisa de cenário funcional próprio.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-09.png).
 
@@ -110,11 +110,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Nova venda — cliente avulso — captura original](imagens/07-venda-cliente-avulso.png)
 
-**Origem:** página 10 do PDF. **Rastreio:** RF07 / UC07.
+**Origem:** página 10 do PDF. **Requisito:** RF07 / UC07.
 
-**Componentes e comportamento documentados:** No protótipo documentado, nome e número são obrigatórios e vinculados somente à venda, sem cadastro permanente automático.
+**O que aparece e como funciona:** No protótipo documentado, nome e número são obrigatórios e vinculados somente à venda, sem cadastro permanente automático.
 
-**Relação com a implementação atual:** Não transportar essa regra automaticamente para o modelo SQL atual, que exige cliente_id. O código React deve ser avaliado em sua própria versão.
+**Como está no sistema atual:** No modelo atual, toda venda precisa estar ligada a um cliente pelo campo `cliente_id`. Essa é uma diferença em relação ao primeiro protótipo. [Ver estrutura de Venda](../../frontend/src/models/Venda.ts).
 
 [Conferir a página completa](evidencias/telas-ang/pagina-10.png).
 
@@ -124,11 +124,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Clientes — captura original](imagens/08-clientes.png)
 
-**Origem:** página 11 do PDF. **Rastreio:** RF01 / UC01.
+**Origem:** página 11 do PDF. **Requisito:** RF01 / UC01.
 
-**Componentes e comportamento documentados:** Lista identificação, contato, quantidade de compras e total gasto. Selecionar uma linha abre o histórico.
+**O que aparece e como funciona:** Lista identificação, contato, quantidade de compras e total gasto. Selecionar uma linha abre o histórico.
 
-**Relação com a implementação atual:** React possui manutenção de clientes além da consulta descrita nesta versão HTML.
+**Como está no sistema atual:** React possui manutenção de clientes além da consulta descrita nesta versão HTML.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-11.png).
 
@@ -138,11 +138,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Detalhe do cliente — captura original](imagens/09-detalhe-cliente.png)
 
-**Origem:** página 12 do PDF. **Rastreio:** RF02 / UC02.
+**Origem:** página 12 do PDF. **Requisito:** RF02 / UC02.
 
-**Componentes e comportamento documentados:** Resumo individual e últimas compras com data, produtos, pagamento e total. O PDF informa limite de oito registros recentes.
+**O que aparece e como funciona:** Resumo individual e últimas compras com data, produtos, pagamento e total. O PDF informa limite de oito registros recentes.
 
-**Relação com a implementação atual:** React apresenta vendas do cliente sem o mesmo limite de oito; ainda falta agrupamento por categoria previsto em RF02.
+**Como está no sistema atual:** React apresenta vendas do cliente sem o mesmo limite de oito; ainda falta agrupamento por categoria previsto em RF02.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-12.png).
 
@@ -152,11 +152,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Estoque — captura original](imagens/10-estoque.png)
 
-**Origem:** página 13 do PDF. **Rastreio:** RF06, RF07 / UC06, UC07.
+**Origem:** página 13 do PDF. **Requisito:** RF06, RF07 / UC06, UC07.
 
-**Componentes e comportamento documentados:** Tabela de produtos, categorias, quantidades e disponibilidade; estoque reduzido após a venda na sessão do protótipo.
+**O que aparece e como funciona:** Tabela de produtos, categorias, quantidades e disponibilidade; estoque reduzido após a venda na sessão do protótipo.
 
-**Relação com a implementação atual:** React acompanha peças por status e persiste localmente em vez de comprovar estoque real da instituição.
+**Como está no sistema atual:** React acompanha peças por status e persiste localmente em vez de comprovar estoque real da instituição.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-13.png).
 
@@ -166,11 +166,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Relatórios — captura original](imagens/11-relatorios.png)
 
-**Origem:** página 14 do PDF. **Rastreio:** RF08 / UC08.
+**Origem:** página 14 do PDF. **Requisito:** RF08 / UC08.
 
-**Componentes e comportamento documentados:** Indicadores estáticos: o próprio documento informa que os números não são recalculados pelo protótipo.
+**O que aparece e como funciona:** Indicadores estáticos: o próprio documento informa que os números não são recalculados pelo protótipo.
 
-**Relação com a implementação atual:** React calcula resumo local de pagamentos e peças, porém não implementa o período e a consolidação diária exigidos.
+**Como está no sistema atual:** React calcula resumo local de pagamentos e peças, porém não implementa o período e a total diário exigidos.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-14.png).
 
@@ -180,11 +180,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Atendentes — captura original](imagens/12-atendentes.png)
 
-**Origem:** página 15 do PDF. **Rastreio:** RF03 / UC03.
+**Origem:** página 15 do PDF. **Requisito:** RF03 / UC03.
 
-**Componentes e comportamento documentados:** Consulta dos dois usuários demonstrativos. O documento informa que esta versão HTML não cria, edita, bloqueia ou exclui atendentes.
+**O que aparece e como funciona:** Consulta dos dois usuários demonstrativos. O documento informa que esta versão HTML não cria, edita, bloqueia ou exclui atendentes.
 
-**Relação com a implementação atual:** React já oferece gestão local de funcionários; segurança de servidor ainda ausente.
+**Como está no sistema atual:** React já oferece gestão local de funcionários; segurança de servidor ainda ausente.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-15.png).
 
@@ -194,11 +194,11 @@ Os números de página abaixo indicam posição física no PDF, não a numeraç�
 
 ![Início — Atendente — captura original](imagens/13-inicio-atendente.png)
 
-**Origem:** página 16 do PDF. **Rastreio:** RNF02.
+**Origem:** página 16 do PDF. **Requisito:** RNF02.
 
-**Componentes e comportamento documentados:** Mostra o painel sem a opção Atendentes no menu, demonstrando diferenciação visual por perfil no HTML.
+**O que aparece e como funciona:** Mostra o painel sem a opção Atendentes no menu, demonstrando diferenciação visual por perfil no HTML.
 
-**Relação com a implementação atual:** A navegação React mudou; a captura evidencia a versão HTML e não comprova autorização segura na aplicação atual.
+**Como está no sistema atual:** A navegação React mudou; a captura evidencia a versão HTML e não comprova autorização segura na aplicação atual.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-16.png).
 

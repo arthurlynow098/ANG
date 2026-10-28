@@ -1,6 +1,6 @@
 # Capturas — Pi Atividade 29_09_26pdf.pdf
 
-Fonte: [Pi Atividade 29_09_26pdf.pdf](../../fontes/Pi%20Atividade%2029_09_26pdf.pdf). Páginas renderizadas diretamente do PDF, sem redesenho.
+Fonte: [Pi Atividade 29_09_26pdf.pdf](../../fontes/Pi%20Atividade%2029_09_26pdf.pdf). Páginas renderizadas diretamente do PDF, sem alterar a imagem.
 
 ## Página 1
 

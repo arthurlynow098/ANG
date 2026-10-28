@@ -1,6 +1,6 @@
 # Capturas — telasANG.pdf
 
-Fonte: [telasANG.pdf](../../fontes/telasANG.pdf). Páginas renderizadas diretamente do PDF, sem redesenho.
+Fonte: [telasANG.pdf](../../fontes/telasANG.pdf). Páginas renderizadas diretamente do PDF, sem alterar a imagem.
 
 ## Página 1
 

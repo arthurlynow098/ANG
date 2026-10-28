@@ -1,6 +1,6 @@
 # Dicionário de dados — modelo existente
 
-Fonte técnica: [migração 001](../../data/database/migrations/001_init_schema.sql). Este documento descreve as nove tabelas MySQL de referência, sem afirmar integração SQL. Campos TypeScript em `frontend/src/models/`. PostgreSQL consta no planejamento e depende de conciliação.
+Fonte técnica: [migração 001](../../data/database/migrations/001_init_schema.sql). Este documento descreve as nove tabelas MySQL de referência, ainda sem conexão com o banco. Campos TypeScript em `frontend/src/models/`. PostgreSQL consta no planejamento e depende de ajuste.
 
 ## CLIENTE
 

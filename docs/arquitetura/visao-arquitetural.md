@@ -2,7 +2,7 @@
 
 ## 1. Identificação e escopo
 
-Projeto ANG, aplicação web demonstrativa e planejamento acadêmico de 2026. Esta visão descreve a implementação atual e as diferenças para a [atividade de acompanhamento, página 6](../continuidade/fontes/Pi%20Atividade%2029_09_26pdf.pdf). Consolidada em 2026-10-27.
+Projeto ANG, aplicação web demonstrativa e planejamento acadêmico de 2026. Esta visão descreve a implementação atual e as diferenças para a [Ver página 6](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png). Atualizada em 2026-10-27.
 
 ## 2. Contexto e componentes atuais
 
@@ -35,14 +35,14 @@ O código efetivamente executado fica em `frontend/`. Não há comunicação com
 
 | Tecnologia | Planejamento documentado | Implementação atual |
 |---|---|---|
-| React / Tailwind | Atividade p. 6 | Presentes no package.json |
-| Shadcn/UI | Atividade p. 6 | Não instalado |
+| React / Tailwind | [Ver página 6 da atividade](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png) | Presentes no package.json |
+| Shadcn/UI | [Ver página 6 da atividade](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png) | Não instalado |
 | Node.js / TypeScript / Express | Backend previsto na atividade p. 6 | Node usado nas ferramentas; TypeScript no frontend; Express ausente |
 | PostgreSQL | Banco previsto na atividade p. 6 | Sem integração; SQL existente tem sintaxe MySQL |
 
 Antes de integrar dados, decidir como migrar/revisar o SQL existente para a tecnologia adotada. Não alterar a descrição de planejamento para fazer parecer que o backend existe.
 
-## 5. Limites e evolução
+## 5. O que falta e próximos passos
 
 Autenticação é demonstrativa e não representa autorização segura. A função chamada `gerarSenhaHash` não é SHA-256 criptográfico; a senha padrão é aceita pelo serviço. A persistência é isolada por navegador e pode ser apagada localmente. RNF01, RNF02, RNF05 e RNF07 exigem evolução e validação próprias.
 

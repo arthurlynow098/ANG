@@ -8,4 +8,4 @@
 
 ![Capa original do estudo da equipe](evidencias/estudo-ang/pagina-01.png)
 
-O nome `2209ANG.pdf` foi preservado. A data exata de revisão não foi inferida do nome do arquivo. O documento identifica Sorocaba — São Paulo, 2026.
+O estudo identifica Sorocaba — São Paulo, 2026. [Ver página 1](evidencias/estudo-ang/pagina-01.png).

@@ -2,7 +2,7 @@
 
 ## 1. Escopo
 
-Projeto O-BRECHÓ, código React da primeira publicação (`c8ec5a8`) e documentação consolidada em 2026-10-27. Ambiente técnico registrado: Windows, Node v24.22.1 e dependências locais. Verificação desta etapa: documentação, integridade dos PDFs, capturas, links e correspondência com o código.
+Projeto O-BRECHÓ, código React da primeira publicação (`c8ec5a8`) e documentação organizada em 2026-10-27. Ambiente técnico registrado: Windows, Node v24.22.1 e dependências locais. Verificação desta etapa: documentação, integridade dos PDFs, capturas, links e comparação com o código.
 
 ## 2. Estratégia e situação
 
@@ -10,7 +10,7 @@ Projeto O-BRECHÓ, código React da primeira publicação (`c8ec5a8`) e document
 |---|---|---|
 | Compilação React | npm.cmd run build | Passou na publicação inicial; saída em verificacao-tecnica.txt |
 | Tipos TypeScript | tsc.cmd --noEmit | Passou na publicação inicial |
-| Documentos | Leitura dos cinco PDFs e inspeção das páginas/diagramas | Realizada nesta consolidação |
+| Documentos | Leitura dos quatro PDFs e inspeção das páginas/diagramas | Realizada nesta revisão |
 | Navegação visual do React | Login demonstrativo e abertura de dez telas em Chrome 144 | Realizada; sem confirmar cadastro, doação ou venda |
 | Cópias e capturas | SHA-256 das cópias, contagem de páginas e imagens | Resultados em ../fontes.json e auditoria-documentacao.json |
 | Fluxos React | Cenários CT-01–CT-08 abaixo | Planejados; não executados nesta etapa documental |
@@ -35,7 +35,7 @@ Projeto O-BRECHÓ, código React da primeira publicação (`c8ec5a8`) e document
 - [Verificação técnica inicial](verificacao-tecnica.txt): comandos, ambiente, código de saída e limitações.
 - [telasANG.pdf](../prototipos/fontes/telasANG.pdf): 13 figuras do protótipo e sua descrição funcional, incluindo erro de autenticação. O próprio PDF informa indicadores estáticos em Relatórios.
 - [Manifesto das fontes](../fontes.json): PDFs copiados integralmente, páginas e SHA-256.
-- [Capturas atuais](../prototipos/atual/README.md) e [registro da execução](../prototipos/atual/capturas.json): login e navegação visual, sem exceções JavaScript observadas durante a captura; não equivalem aos cenários comerciais completos.
+- [Capturas atuais](../prototipos/atual/README.md) e [registro da execução](../prototipos/atual/capturas.json): login e navegação concluídos sem erros JavaScript durante as capturas. As vendas e os cadastros completos ainda precisam ser testados.
 - [Auditoria documental desta publicação](auditoria-documentacao.json): integridade, imagens e links locais, gerada antes do commit.
 
 ## 5. Avaliação com pessoas
