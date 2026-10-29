@@ -1,3 +1,9 @@
+<p align="center"><img src="https://raw.githubusercontent.com/arthurlynow098/arthurlynow098/main/assets/ars-codex-banner.png" alt="Arthur Mendes Entsev — gravura alquímica minimalista" width="100%"></p>
+
+<p align="center"><sub>☉ &nbsp; ARS CODEX &nbsp; · &nbsp; ANG &nbsp; ☽</sub></p>
+
+---
+
 <div align="center">
 
 # O-BRECHÓ
@@ -125,3 +131,7 @@ npm run dev
 ```
 
 Abra o endereço informado pelo Vite, normalmente `http://localhost:5173`. Usuários de exemplo: `admin`, `atendente` ou `clara`, com senha `123456`. Para gerar a versão de produção: `npm run build`. [Instruções completas](frontend/README.md).
+
+---
+
+<p align="center"><sub>☿ &nbsp; Estudo · construção · evolução &nbsp; ☿</sub><br><a href="https://github.com/arthurlynow098">Perfil</a> · <a href="https://arthurentsev.vercel.app/">Portfólio</a></p>
