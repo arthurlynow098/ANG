@@ -1,11 +1,3 @@
-<p align="center"><img src="assets/project-animal.png" alt="andorinha — símbolo do projeto" width="280"></p>
-
-<p align="center"><sub>ANG</sub></p>
-
----
-
-<div align="center">
-
 # O-BRECHÓ
 ### Gestão solidária para a Associação Nova Geração
 
