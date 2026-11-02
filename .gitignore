@@ -37,3 +37,7 @@ dist-ssr
 .tools/
 .work/
 Dados/
+
+# Cache local dos scripts Python
+__pycache__/
+*.pyc
