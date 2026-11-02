@@ -4,7 +4,7 @@ Capturas reais realizadas em 2026-10-27, no Chrome.
 
 Foi realizado login pelo acesso demonstrativo de Administrador e navegacao pelas telas. Os nomes, contatos e valores sao exemplo, sem relacao comprovada com registros operacionais reais da ANG.
 
-[Registro tecnico](capturas.json) ? [Prototipo anterior](../fichas-de-telas.md) ? [Requisitos e lacunas](../../requisitos/rastreabilidade.md)
+[Registro tecnico](capturas.json)  [Prototipo anterior](../fichas-de-telas.md)  [Requisitos e lacunas](../../requisitos/rastreabilidade.md)
 
 | Tela | Captura |
 |---|---|
