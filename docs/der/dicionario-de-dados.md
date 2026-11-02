@@ -25,7 +25,7 @@ Equipe e dados de acesso demonstrativo.
 | `cargo` | `VARCHAR(80)` | Não | - | Papel atribuído ao funcionário. Restrição `NOT NULL`. |
 | `telefone` | `VARCHAR(30)` | Não | - | Contato telefônico. Restrição `NOT NULL`. |
 | `usuario` | `VARCHAR(60)` | Não | UK | Identificador de acesso, sem duplicidade no SQL. Restrição `NOT NULL UNIQUE`. |
-| `senha_hash` | `VARCHAR(255)` | Não | - | Campo destinado à credencial; implementação atual é demonstrativa, não hash criptográfico seguro. Restrição `NOT NULL`. |
+| `senha_hash` | `VARCHAR(255)` | Não | - | Campo destinado à credencial. Implementação atual é demonstrativa, não hash criptográfico seguro. Restrição `NOT NULL`. |
 
 ## CATEGORIA
 
@@ -115,7 +115,7 @@ Peça, quantidade e valor dentro de uma venda.
 | `id` | `INT` | Não | PK | Identificador do registro. Restrição `PRIMARY KEY AUTO_INCREMENT`. |
 | `venda_id` | `INT` | Não | FK → VENDA.id | Venda relacionada. Restrição `NOT NULL`. |
 | `produto_id` | `INT` | Não | FK → PRODUTO.id | Peça associada ao registro. Restrição `NOT NULL`. |
-| `quantidade` | `INT` | Não | - | Quantidade do item; o frontend atual vende uma unidade por peça. Restrição `NOT NULL DEFAULT 1`. |
+| `quantidade` | `INT` | Não | - | Quantidade do item. O frontend atual vende uma unidade por peça. Restrição `NOT NULL DEFAULT 1`. |
 | `preco_unitario` | `DECIMAL(10, 2)` | Não | - | Preço unitário registrado. Restrição `NOT NULL`. |
 | `subtotal` | `DECIMAL(10, 2)` | Não | - | Valor do item. Restrição `NOT NULL`. |
 
@@ -131,7 +131,7 @@ Modalidade, valor e data do pagamento de uma venda.
 | Coluna | Tipo SQL | Aceita nulo? | Chave | Regra SQL / finalidade |
 |---|---|---|---|---|
 | `id` | `INT` | Não | PK | Identificador do registro. Restrição `PRIMARY KEY AUTO_INCREMENT`. |
-| `venda_id` | `INT` | Não | UK; FK → VENDA.id | Venda relacionada. Restrição `NOT NULL UNIQUE`. |
+| `venda_id` | `INT` | Não | UK, FK → VENDA.id | Venda relacionada. Restrição `NOT NULL UNIQUE`. |
 | `metodo` | `VARCHAR(40)` | Não | - | Forma de pagamento. Restrição `NOT NULL`. |
 | `valor` | `DECIMAL(10, 2)` | Não | - | Valor recebido. Restrição `NOT NULL`. |
 | `data` | `DATE` | Não | - | Data do registro. Restrição `NOT NULL`. |
@@ -147,7 +147,7 @@ Restrições referenciais:
 - Conservação: Novo, Bom, Regular, Para reparo.
 - Pagamento demonstrativo: Pix, Dinheiro e Cartão.
 
-Esses domínios são strings no SQL; não existem CHECK ou ENUM que os imponham na migração atual.
+Esses domínios são strings no SQL. Não existem CHECK ou ENUM que os imponham na migração atual.
 
 ## Integridade e diferenças de modelagem
 

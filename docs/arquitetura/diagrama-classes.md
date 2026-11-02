@@ -12,7 +12,7 @@
 |---|---|---|
 | Cliente | Identificação, contato, histórico e preferências | models/Cliente.ts e telas de clientes |
 | Agendamento | Data, horário, status e cancelamento do atendimento | Não implementado |
-| Relatorio | Tipo, intervalo e geração/exportação | Não há entidade; tela atual de resumo sem intervalo ou exportação |
+| Relatorio | Tipo, intervalo e geração/exportação | Não há entidade. Tela atual de resumo sem intervalo ou exportação |
 | Venda | Data, valor e registro comercial | models/Venda.ts e VendaService |
 | ItemVenda | Peça, quantidade, preço e subtotal | models/ItemVenda.ts |
 | Pagamento | Método, valor e data | models/Pagamento.ts |
@@ -20,9 +20,9 @@
 | Doacao | Entrada, origem e observação | models/Doacao.ts e TriagemService |
 | Produto | Descrição, preço, tamanho, marca, estado e localização | models/Produto.ts |
 | Triagem | Avaliação, situação e aprovação/reprovação | models/Triagem.ts e operações de contexto |
-| Funcionario | Equipe responsável pelas operações | models/Funcionario.ts; acrescenta usuário e senha_hash |
+| Funcionario | Equipe responsável pelas operações | models/Funcionario.ts. Acrescenta usuário e senha_hash |
 
-O modelo original associa doação e produto diretamente. No SQL atual, o vínculo é representado pelos registros de TRIAGEM, que contêm `doacao_id` e `produto_id`. As interfaces atuais representam dados; métodos do desenho conceitual são distribuídos entre contexto e serviços, em vez de métodos de instância dessas interfaces.
+O modelo original associa doação e produto diretamente. No SQL atual, o vínculo é representado pelos registros de TRIAGEM, que contêm `doacao_id` e `produto_id`. As interfaces atuais representam dados. Métodos do desenho conceitual são distribuídos entre contexto e serviços, em vez de métodos de instância dessas interfaces.
 
 ## Relações dos tipos implementados
 
@@ -39,4 +39,4 @@ classDiagram
     Funcionario "1" --> "0..*" Triagem : realiza
 ```
 
-O SQL não impõe unicidade de `ITEM_VENDA.produto_id`; a intenção de venda única por peça depende da regra de aplicação. `PAGAMENTO.venda_id` é único, mas o SQL não força a existência de um pagamento para toda venda. Consulte o [dicionário](../der/dicionario-de-dados.md).
+O SQL não impõe unicidade de `ITEM_VENDA.produto_id`. A intenção de venda única por peça depende da regra de aplicação. `PAGAMENTO.venda_id` é único, mas o SQL não força a existência de um pagamento para toda venda. Consulte o [dicionário](../der/dicionario-de-dados.md).

@@ -105,6 +105,6 @@ erDiagram
 
 O modelo de classes original da equipe está em [arquitetura](../arquitetura/diagrama-classes.md), extraído da página 31 do estudo. Ele contém Agendamento e Relatorio, conceitos ausentes nas nove tabelas existentes.
 
-PAGAMENTO.venda_id é único, mas o SQL não força a existência de um pagamento para cada venda. ITEM_VENDA não possui UNIQUE em produto_id; a intenção de venda única por peça depende da aplicação. As cardinalidades acima refletem esses limites.
+PAGAMENTO.venda_id é único, mas o SQL não força a existência de um pagamento para cada venda. ITEM_VENDA não possui UNIQUE em produto_id. A intenção de venda única por peça depende da aplicação. As cardinalidades acima refletem esses limites.
 
 O [dicionário completo](dicionario-de-dados.md) descreve as restrições efetivas. A migração existente tem sintaxe MySQL, ainda sem conexão com o frontend, enquanto o planejamento da equipe cita PostgreSQL.

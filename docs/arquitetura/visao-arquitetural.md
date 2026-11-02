@@ -37,8 +37,8 @@ O código da aplicação fica em `frontend/`. Não há comunicação com uma API
 |---|---|---|
 | React / Tailwind | [Ver página 6 da atividade](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png) | Presentes no package.json |
 | Shadcn/UI | [Ver página 6 da atividade](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png) | Não instalado |
-| Node.js / TypeScript / Express | Backend previsto na atividade p. 6 | Node usado nas ferramentas; TypeScript no frontend; Express ausente |
-| PostgreSQL | Banco previsto na atividade p. 6 | Sem integração; SQL existente tem sintaxe MySQL |
+| Node.js / TypeScript / Express | Backend previsto na atividade p. 6 | Node usado nas ferramentas. TypeScript no frontend. Express ausente |
+| PostgreSQL | Banco previsto na atividade p. 6 | Sem integração. SQL existente tem sintaxe MySQL |
 
 Precisamos adaptar os scripts MySQL para o banco escolhido antes de conectar o frontend ao backend.
 

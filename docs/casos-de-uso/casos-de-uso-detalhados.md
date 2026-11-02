@@ -32,7 +32,7 @@ As operações do sistema são divididas entre atendimento, administração e tr
 
 [views/clientes/ClientesView.tsx](../../frontend/src/views/clientes/ClientesView.tsx)
 
-Cadastro existe; o tratamento de duplicidade e os critérios de contato precisam de execução de CT-01.
+Cadastro existe. O tratamento de duplicidade e os critérios de contato precisam de execução de CT-01.
 
 Teste CT-01 pendente.
 
@@ -98,7 +98,7 @@ Teste CT-02 pendente.
 
 [views/equipe/AtendentesView.tsx](../../frontend/src/views/equipe/AtendentesView.tsx)
 
-Gestão local implementada com condições de interface por cargo; não há autorização segura de servidor.
+Gestão local implementada com condições de interface por cargo. Não há autorização segura de servidor.
 
 Teste CT-03 pendente.
 
@@ -167,7 +167,7 @@ Teste CT-04 pendente.
 
 [views/triagem/TriagemView.tsx](../../frontend/src/views/triagem/TriagemView.tsx) · [context/BrechoContext.tsx](../../frontend/src/context/BrechoContext.tsx)
 
-Aprovação e descarte existem. O contexto do estudo (pp. 4 e 7) reserva aprovação final a Aline; essa exclusividade não está garantida no código.
+Aprovação e descarte existem. O contexto do estudo (pp. 4 e 7) reserva aprovação final a Aline. Essa exclusividade não está garantida no código.
 
 Teste CT-05 pendente.
 
@@ -238,7 +238,7 @@ Teste CT-06 pendente.
 
 [views/vendas/NovaVendaView.tsx](../../frontend/src/views/vendas/NovaVendaView.tsx) · [services/vendaService.ts](../../frontend/src/services/vendaService.ts)
 
-O React usa peças unitárias e permite negociar valor; o protótipo anterior usava quantidades. Coerência entre total negociado e subtotais precisa ser verificada.
+O React usa peças unitárias e permite negociar valor. O protótipo anterior usava quantidades. Coerência entre total negociado e subtotais precisa ser verificada.
 
 Teste CT-07 pendente.
 

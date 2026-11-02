@@ -96,11 +96,11 @@ Os serviços TypeScript atuais rodam no navegador e ficam em `frontend/`. [Ver o
 
 | Necessidade | Requisitos | Caso de uso | Situação |
 |---|---|---|---|
-| Clientes e histórico | RF01, RF02 | UC01, UC02 | Cadastro e histórico prontos; falta agrupar por categoria |
-| Equipe e acesso | RF03, RNF01, RNF02 | UC03 | Funciona como demonstração; falta segurança para uso real |
-| Doações e avaliação | RF04, RF05 | UC04, UC05 | Fluxo pronto; falta restringir a aprovação à gestora |
+| Clientes e histórico | RF01, RF02 | UC01, UC02 | Cadastro e histórico prontos. Falta agrupar por categoria |
+| Equipe e acesso | RF03, RNF01, RNF02 | UC03 | Funciona como demonstração. Falta segurança para uso real |
+| Doações e avaliação | RF04, RF05 | UC04, UC05 | Fluxo pronto. Falta restringir a aprovação à gestora |
 | Produtos e estoque | RF06 | UC06 | Falta alinhar as categorias ao documento |
-| Vendas e caixa | RF07, RF08 | UC07, UC08 | Venda e resumo prontos; falta consultar por período |
+| Vendas e caixa | RF07, RF08 | UC07, UC08 | Venda e resumo prontos. Falta consultar por período |
 
 [Requisitos e pendências](docs/requisitos/rastreabilidade.md) · [Próximas tarefas](PRODUCT-BACKLOG.md)
 

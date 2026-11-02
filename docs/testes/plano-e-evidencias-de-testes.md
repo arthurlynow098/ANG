@@ -8,10 +8,10 @@ Os primeiros testes técnicos foram feitos no Windows, com Node v24.22.1, na ver
 
 | Frente | Método | Situação |
 |---|---|---|
-| Compilação React | npm.cmd run build | Passou na publicação inicial; saída em verificacao-tecnica.txt |
+| Compilação React | npm.cmd run build | Passou na publicação inicial. Saída em verificacao-tecnica.txt |
 | Tipos TypeScript | tsc.cmd --noEmit | Passou na publicação inicial |
 | Documentos | Leitura dos quatro PDFs e inspeção das páginas/diagramas | Conferidos em 27/10/2026 |
-| Navegação visual do React | Login demonstrativo e abertura de dez telas em Chrome 144 | Realizada; sem confirmar cadastro, doação ou venda |
+| Navegação visual do React | Login demonstrativo e abertura de dez telas em Chrome 144 | Realizada. Sem confirmar cadastro, doação ou venda |
 | Cópias e capturas | SHA-256 das cópias, contagem de páginas e imagens | Resultados em ../fontes.json e auditoria-documentacao.json |
 | Fluxos React | Cenários CT-01–CT-08 abaixo | Ainda não executados |
 | SQL | Aplicação em banco e testes de integridade | Não executados |
@@ -21,14 +21,14 @@ Os primeiros testes técnicos foram feitos no Windows, com Node v24.22.1, na ver
 
 | ID | Requisito / UC | Pré-condição e procedimento | Resultado esperado | Estado |
 |---|---|---|---|---|
-| CT-01 | RF01 / UC01 | Autenticar atendente, cadastrar cliente com contato e tentar dados incompletos/duplicados | Registro válido persistido; dados inválidos ou duplicidade tratados conforme regra acordada | Não executado |
-| CT-02 | RF02 / UC02 | Cliente com compras em categorias distintas; abrir histórico | Compras e categorias corretas; ausência de agrupamento atual deve ser registrada como lacuna | Não executado |
-| CT-03 | RF03 / UC03 | Administrador cria atendente; perfil comum tenta acessar gestão | Cadastro acessível apenas ao papel autorizado; validar menu e operação, sem presumir autorização de servidor | Não executado |
-| CT-04 | RF04 / UC04 | Registrar doação com duas peças; conferir vínculo e situação | Doação, produtos pendentes e triagens ligados, sem disponibilização comercial antecipada | Não executado |
-| CT-05 | RF05 / UC05 | Avaliar uma peça aprovada e outra reprovada; tentar aprovação com perfil diferente da gestora | Aprovação/reprovação corretas; exclusividade conforme RN02, atualmente pendente | Não executado |
-| CT-06 | RF06 / UC06 | Classificar peça aprovada e filtrar categorias documentadas | Categoria correta e catálogo filtrado; divergências do seed registradas | Não executado |
-| CT-07 | RF07 / UC07 | Vender peça disponível, identificar pagamento e conferir estoque/itens/total; tentar peça indisponível | Venda e pagamento coerentes, baixa única e rejeição de operação inválida | Não executado |
-| CT-08 | RF08 / UC08 | Preparar vendas em duas datas e consultar dia/período | Quantidade e receita corretas por período; filtro ausente registrado como pendência | Não executado |
+| CT-01 | RF01 / UC01 | Autenticar atendente, cadastrar cliente com contato e tentar dados incompletos/duplicados | Registro válido persistido. Dados inválidos ou duplicidade tratados conforme regra acordada | Não executado |
+| CT-02 | RF02 / UC02 | Cliente com compras em categorias distintas. Abrir histórico | Compras e categorias corretas. Ausência de agrupamento atual deve ser registrada como lacuna | Não executado |
+| CT-03 | RF03 / UC03 | Administrador cria atendente. Perfil comum tenta acessar gestão | Cadastro acessível apenas ao papel autorizado. Validar menu e operação, sem presumir autorização de servidor | Não executado |
+| CT-04 | RF04 / UC04 | Registrar doação com duas peças. Conferir vínculo e situação | Doação, produtos pendentes e triagens ligados, sem disponibilização comercial antecipada | Não executado |
+| CT-05 | RF05 / UC05 | Avaliar uma peça aprovada e outra reprovada. Tentar aprovação com perfil diferente da gestora | Aprovação/reprovação corretas. Exclusividade conforme RN02, atualmente pendente | Não executado |
+| CT-06 | RF06 / UC06 | Classificar peça aprovada e filtrar categorias documentadas | Categoria correta e catálogo filtrado. Divergências do seed registradas | Não executado |
+| CT-07 | RF07 / UC07 | Vender peça disponível, identificar pagamento e conferir estoque/itens/total. Tentar peça indisponível | Venda e pagamento coerentes, baixa única e rejeição de operação inválida | Não executado |
+| CT-08 | RF08 / UC08 | Preparar vendas em duas datas e consultar dia/período | Quantidade e receita corretas por período. Filtro ausente registrado como pendência | Não executado |
 
 ## 4. Registros
 

@@ -1,6 +1,6 @@
 # Frontend
 
-React 18, TypeScript, Vite 6 e Tailwind CSS. Todos os serviços atuais executam no navegador; não há API externa nem variáveis de ambiente obrigatórias.
+React 18, TypeScript, Vite 6 e Tailwind CSS. Todos os serviços atuais executam no navegador. Não há API externa nem variáveis de ambiente obrigatórias.
 
 ## Instalação e execução
 
@@ -22,7 +22,7 @@ O build usa Vite. Checagem de tipos separada: `npx tsc --noEmit`.
 
 ## Demonstração e persistência
 
-Usuários `admin`, `atendente` e `clara`, senha `123456`. Acesso demonstrativo, sem autenticação de servidor. Dados iniciais em `src/data/mockData.ts`; persistência na chave `ang_brecho_strict_der_v1` do localStorage. Limpar essa chave descarta as alterações locais e reinicia os dados.
+Usuários `admin`, `atendente` e `clara`, senha `123456`. Acesso demonstrativo, sem autenticação de servidor. Dados iniciais em `src/data/mockData.ts`. Persistência na chave `ang_brecho_strict_der_v1` do localStorage. Limpar essa chave descarta as alterações locais e reinicia os dados.
 
 ## Estrutura
 

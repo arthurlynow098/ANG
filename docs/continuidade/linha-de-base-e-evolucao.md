@@ -14,7 +14,7 @@
 | Interfaces | Capturas do protótipo HTML em telasANG.pdf | Protótipo HTML e frontend React disponíveis | Não são a mesma versão de interface |
 | Triagem | RF04–RF06 e fluxos no estudo | Recebimento, avaliação e estados no React | Aprovação exclusiva da gestora pendente |
 | Financeiro | RF07–RF08 e planejamento | Venda e resumo de caixa disponíveis | Relatório por período e validação pendentes |
-| Backend e banco | Express/TypeScript/PostgreSQL previstos, [Ver página 6](evidencias/atividade-29-09-2026/pagina-06.png) | Sem backend; localStorage e SQL MySQL de referência | Adoção final e migração ainda precisam ser decididas |
+| Backend e banco | Express/TypeScript/PostgreSQL previstos, [Ver página 6](evidencias/atividade-29-09-2026/pagina-06.png) | Sem backend. LocalStorage e SQL MySQL de referência | Adoção final e migração ainda precisam ser decididas |
 | Identificação da equipe | Nomes e papéis no [Ver página 1](../academico/evidencias/estudo-ang/pagina-01.png) · [Ver página 6](../academico/evidencias/estudo-ang/pagina-06.png) | Equipe e responsabilidades definidas | Falta registrar as entregas de cada integrante |
 
 ## Telas
@@ -32,4 +32,4 @@ O [primeiro protótipo](../prototipos/fichas-de-telas.md) foi feito em HTML. A [
 
 ## Próximos passos
 
-Alinhar as regras de triagem, categorias e relatórios; definir a integração SQL; executar CT-01–CT-08; registrar aprovação da ANG e a orientação acadêmica. Responsabilidades de execução e prazos devem ser acordados pela equipe. Consulte o [backlog](../../PRODUCT-BACKLOG.md).
+Alinhar as regras de triagem, categorias e relatórios. Definir a integração SQL. Executar CT-01–CT-08. Registrar aprovação da ANG e a orientação acadêmica. Responsabilidades de execução e prazos devem ser acordados pela equipe. Consulte o [backlog](../../PRODUCT-BACKLOG.md).

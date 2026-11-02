@@ -106,7 +106,7 @@ Nome, categoria, preço e quantidade inicial obrigatórios, descrição opcional
 
 **Versão atual**
 
-O sistema atual acrescenta características e localização em CadastroProdutoView.tsx; cadastro direto precisa ser alinhado com doação e aprovação.
+O sistema atual acrescenta características e localização em CadastroProdutoView.tsx. Cadastro direto precisa ser alinhado com doação e aprovação.
 
 [Conferir a página completa](evidencias/telas-ang/pagina-08.png).
 
