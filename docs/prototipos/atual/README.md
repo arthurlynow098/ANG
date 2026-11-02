@@ -39,7 +39,7 @@ Foi realizado login pelo acesso demonstrativo de Administrador e navegacao pelas
 
 ![Formulário atual de produto](05-cadastro-produto.png)
 
-## Formulário atual de venda, sem confirmação
+## Formulário atual de venda
 
 ![Formulário atual de venda, sem confirmação](06-venda.png)
 
