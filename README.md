@@ -2,15 +2,13 @@
 
 ### Gestão para a Associação Nova Geração
 
-Projeto de **Análise e Desenvolvimento de Sistemas · Fatec Sorocaba · 2026**
-
 [Documentação](docs/README.md) · [Telas](docs/prototipos/README.md) · [Requisitos](docs/requisitos/especificacao-requisitos.md) · [Como executar](frontend/README.md) · [Backlog](PRODUCT-BACKLOG.md)
 
 ![Painel atual do O-BRECHÓ](docs/prototipos/atual/02-inicio.png)
 
 *Tela atual do sistema, com dados de exemplo. Veja as [dez telas atuais](docs/prototipos/atual/README.md) e as [13 telas do primeiro protótipo](docs/prototipos/fichas-de-telas.md).*
 
-## 📋 Informações do Projeto
+## Informações do Projeto
 
 | Campo | Informação |
 |---|---|
