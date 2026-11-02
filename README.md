@@ -1,5 +1,5 @@
 # O-BRECHÓ
-### Gestão solidária para a Associação Nova Geração
+### Gestão para a Associação Nova Geração
 
 Projeto de **Análise e Desenvolvimento de Sistemas · Fatec Sorocaba · 2026**
 
