@@ -1,8 +1,8 @@
 # Galeria e fichas das 13 telas
 
-**Plataforma:** web. **Fonte:** [telasANG.pdf](fontes/telasANG.pdf). **Estado:** protótipo HTML documentado pela equipe em 2026, sem aceite anexado. Os nomes e números são dados de demonstração. As imagens são os bytes extraídos do PDF, sem alterar a imagem.
+**Plataforma:** web. **Fonte:** [telasANG.pdf](fontes/telasANG.pdf). **Estado:** protótipo HTML. Os nomes e números são dados de demonstração.
 
-Os números de página abaixo indicam ordem das páginas no arquivo, não a numeração impressa.
+Os números de página abaixo indicam ordem das páginas no arquivo.
 
 | Tela | Página | Requisito / fluxo |
 |---|---:|---|
