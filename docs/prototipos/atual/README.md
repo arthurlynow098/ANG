@@ -23,58 +23,38 @@ Foi realizado login pelo acesso demonstrativo de Administrador e navegacao pelas
 
 ![Login atual](01-login.png)
 
-Titulo observado: **O Brechó**.
-
 ## Painel inicial atual
 
 ![Painel inicial atual](02-inicio.png)
-
-Titulo observado: **Bom trabalho, Mariana!**.
 
 ## Triagem atual
 
 ![Triagem atual](03-triagem.png)
 
-Titulo observado: **Triagem de Doações**.
-
 ## Catálogo atual
 
 ![Catálogo atual](04-produtos.png)
-
-Titulo observado: **Produtos Disponíveis na Loja**.
 
 ## Formulário atual de produto
 
 ![Formulário atual de produto](05-cadastro-produto.png)
 
-Titulo observado: **Cadastrar Produto**.
-
 ## Formulário atual de venda, sem confirmação
 
 ![Formulário atual de venda, sem confirmação](06-venda.png)
-
-Titulo observado: **Finalizar Venda**.
 
 ## Clientes de demonstração
 
 ![Clientes de demonstração](07-clientes.png)
 
-Titulo observado: **Clientes**.
-
 ## Estoque de demonstração
 
 ![Estoque de demonstração](08-estoque.png)
-
-Titulo observado: **Estoque de Peças**.
 
 ## Resumo financeiro de demonstração
 
 ![Resumo financeiro de demonstração](09-resumo-caixa.png)
 
-Titulo observado: **Resumo do Brechó**.
-
 ## Equipe de demonstração
 
 ![Equipe de demonstração](10-equipe.png)
-
-Titulo observado: **Equipe de Funcionários**.
