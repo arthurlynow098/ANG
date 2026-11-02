@@ -1,11 +1,10 @@
 # O-BRECHÓ
+
 ### Gestão para a Associação Nova Geração
 
 Projeto de **Análise e Desenvolvimento de Sistemas · Fatec Sorocaba · 2026**
 
 [Documentação](docs/README.md) · [Telas](docs/prototipos/README.md) · [Requisitos](docs/requisitos/especificacao-requisitos.md) · [Como executar](frontend/README.md) · [Backlog](PRODUCT-BACKLOG.md)
-
-</div>
 
 ![Painel atual do O-BRECHÓ](docs/prototipos/atual/02-inicio.png)
 
@@ -15,16 +14,16 @@ Projeto de **Análise e Desenvolvimento de Sistemas · Fatec Sorocaba · 2026**
 
 | Campo | Informação |
 |---|---|
-| **Projeto** | O-BRECHÓ — Associação Nova Geração (ANG) |
+| **Projeto** | O-BRECHÓ da Associação Nova Geração (ANG) |
 | **Instituição** | Faculdade de Tecnologia de Sorocaba (FATEC Sorocaba) |
 | **Curso** | Análise e Desenvolvimento de Sistemas (ADS) |
 | **Equipe** | Arthur Mendes Entsev, Eduardo Kioshi Yasuoka, Gustavo Henrique Oliveira da Silva e Tiago Pereira Cortes |
 | **Cliente / Parceiro** | Associação Nova Geração (ANG) |
 | **Disciplina / Etapa** | Projeto Integrador (PI) |
 | **Ano** | 2026 |
-| **Última atualização** | 27/10/2026 |
+| **Última atualização** | 02/11/2026 |
 
-Instituição, curso e ano: [Ver página 1](docs/academico/evidencias/estudo-ang/pagina-01.png). Nome da associação: [Ver página 3](docs/continuidade/evidencias/atividade-29-09-2026/pagina-03.png). Os nomes da equipe e a disciplina seguem os [ajustes feitos pela equipe no README](https://github.com/arthurlynow098/ANG/commit/0065fc8). [Responsabilidades e estimativa de custos](docs/academico/contexto-e-equipe.md).
+[Capa do estudo](docs/academico/evidencias/estudo-ang/pagina-01.png) · [Associação Nova Geração](docs/continuidade/evidencias/atividade-29-09-2026/pagina-03.png) · [Equipe e custos estimados](docs/academico/contexto-e-equipe.md)
 
 ## Resumo do projeto
 
@@ -50,7 +49,7 @@ O código já passou pela geração da versão de produção e pela verificaçã
 
 A proposta inicial não inclui loja virtual, entregas, várias unidades, consignação ou avaliação automática das peças. [Ver página 14](docs/academico/evidencias/estudo-ang/pagina-14.png).
 
-Conforme os ajustes da equipe, o sistema também não terá agenda de atendimentos nem integração para processar pagamentos. Ele registra a forma de pagamento usada na venda. [Ver ajuste de escopo](https://github.com/arthurlynow098/ANG/commit/0065fc8) · [Ver página 8](docs/academico/evidencias/estudo-ang/pagina-08.png).
+O sistema não inclui agenda de atendimentos nem processamento de pagamentos. Na venda, registramos apenas a forma de pagamento usada pelo cliente. [Escopo definido pela equipe](https://github.com/arthurlynow098/ANG/commit/0065fc8) · [Registro do pagamento](docs/academico/evidencias/estudo-ang/pagina-08.png).
 
 ### O que ainda falta
 
@@ -58,7 +57,7 @@ Os dados ficam no navegador de cada computador. O login ainda é de demonstraç�
 
 O planejamento cita PostgreSQL, mas os scripts existentes usam MySQL. A equipe precisa alinhar isso antes de conectar o sistema ao banco. [Ver comparação](docs/arquitetura/visao-arquitetural.md).
 
-Os clientes, produtos e valores mostrados nas telas são dados de exemplo. As informações sobre a ANG e sobre o projeto vêm dos documentos da equipe.
+As telas usam clientes, produtos e valores de exemplo.
 
 ## Organização do código
 
@@ -81,7 +80,7 @@ ANG/
 └── PRODUCT-BACKLOG.md        # Lista de tarefas do projeto
 ```
 
-Os serviços TypeScript atuais rodam no navegador e ficam em `frontend/`. Outras pastas serão usadas quando a equipe criar novos componentes. [Ver organização do código](docs/arquitetura/ARQUITETURA.md).
+Os serviços TypeScript atuais rodam no navegador e ficam em `frontend/`. [Ver organização do código](docs/arquitetura/ARQUITETURA.md).
 
 ## Onde encontrar cada informação
 
@@ -105,7 +104,7 @@ Os serviços TypeScript atuais rodam no navegador e ficam em `frontend/`. Outras
 | Produtos e estoque | RF06 | UC06 | Falta alinhar as categorias ao documento |
 | Vendas e caixa | RF07, RF08 | UC07, UC08 | Venda e resumo prontos; falta consultar por período |
 
-Os links para os requisitos, o código e os pontos pendentes estão na [tabela de acompanhamento](docs/requisitos/rastreabilidade.md). As próximas tarefas ficam no [backlog](PRODUCT-BACKLOG.md).
+[Requisitos e pendências](docs/requisitos/rastreabilidade.md) · [Próximas tarefas](PRODUCT-BACKLOG.md)
 
 ## Histórico do projeto
 
@@ -113,7 +112,7 @@ O estudo, a atividade e o primeiro protótipo mostram as etapas anteriores ao Re
 
 ## Como começar
 
-Use Node.js compatível com Vite 6 (Node 22 recomendado) e npm.
+Para rodar o projeto, use Node.js compatível com Vite 6 (Node 22 recomendado) e npm.
 
 ```bash
 git clone https://github.com/arthurlynow098/ANG.git
@@ -122,7 +121,7 @@ npm ci
 npm run dev
 ```
 
-Abra o endereço informado pelo Vite, normalmente `http://localhost:5173`. Usuários de exemplo: `admin`, `atendente` ou `clara`, com senha `123456`. Para gerar a versão de produção: `npm run build`. [Instruções completas](frontend/README.md).
+Abra o endereço informado pelo Vite, normalmente `http://localhost:5173`. Os usuários de exemplo são `admin`, `atendente` e `clara`, com senha `123456`. O comando `npm run build` gera a versão de produção. [Instruções completas](frontend/README.md).
 
 ---
 

@@ -1,8 +1,8 @@
-# Continuidade e evolução
+# Histórico do projeto
 
-- [Linha de base, mudanças e responsabilidades](linha-de-base-e-evolucao.md).
-- [Atividade original](fontes/Pi%20Atividade%2029_09_26pdf.pdf), seis páginas.
-- [Capturas completas da atividade](evidencias/atividade-29-09-2026/README.md).
-- [Papéis e contribuições documentadas](contribuicoes.csv).
+- [Etapas e evolução](linha-de-base-e-evolucao.md)
+- [Atividade de acompanhamento](fontes/Pi%20Atividade%2029_09_26pdf.pdf)
+- [Páginas da atividade](evidencias/atividade-29-09-2026/README.md)
+- [Responsabilidades da equipe](contribuicoes.csv)
 
-O arquivo da atividade registra o estado de análise e planejamento e descreve a stack pretendida. O repositório atual já possui frontend React demonstrativo, mas não backend e conexão com o banco de dados. O período exato da disciplina e a distribuição individual de entregas ainda precisam ser registrados.
+A análise e o protótipo HTML deram início ao projeto. A versão atual usa React e salva os dados no navegador. O backend e a conexão com o banco ainda precisam ser desenvolvidos.

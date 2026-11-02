@@ -1,8 +1,8 @@
-# Product Backlog — O-BRECHÓ / ANG
+# Product Backlog
 
-**Objetivo:** centralizar a operação do brechó e apoiar as atividades sociais da ANG. **Responsável previsto por produto:** Tiago Pereira Cortes, PM/PO Júnior no estudo (p. 6). **Revisão documental:** 2026-10-27.
+Nosso objetivo é centralizar a operação do brechó e apoiar as atividades sociais da ANG. Tiago acompanha o produto como PM/PO. [Responsabilidades da equipe](docs/academico/evidencias/estudo-ang/pagina-06.png).
 
-Prioridades são propostas por dependência e risco, a revisar pela equipe. Papéis e requisitos vêm dos PDFs; o estado de implementação vem da inspeção do repositório. Nenhum item é considerado aceito pelo parceiro sem evidência.
+As prioridades consideram as dependências entre as tarefas e os pontos que faltam para usar o sistema na ANG. A validação das entregas com a associação ainda está pendente.
 
 | ID | Item / necessidade | Prioridade proposta | Estado | Critério de conclusão | Origem / vínculo | Dependências |
 |---|---|---|---|---|---|---|
@@ -20,8 +20,8 @@ Prioridades são propostas por dependência e risco, a revisar pela equipe. Pap�
 | PB-12 | Aprovação exclusiva e origem das peças | Alta | Pendente | Alinhar registro interno pendente, catálogo comercial e aprovação pela gestora | RN01, RN02, RN03 / RF04, RF05 | Decisão de regra e PB-07 |
 | PB-13 | Alinhar PostgreSQL planejado e SQL existente | Alta | Decisão e adaptação pendentes | Revisar sintaxe MySQL e adotar migração compatível com banco escolhido | Atividade p. 6 / RNF05 | Decisão técnica da equipe |
 
-## Refinamento e histórico
+## Escopo
 
-Os IDs PB-01–PB-09 mantêm os temas da primeira publicação. A revisão dos documentos acrescenta PB-10–PB-13 para os pontos que ainda faltam. Agendamento permanece regra operacional, sem módulo de agenda no sistema atual. Shadcn/UI é tecnologia planejada, mas ainda não usada.
+O sistema registra a forma de pagamento, mas não processa cobranças. A agenda de atendimentos também fica fora desta versão. Shadcn/UI foi planejado, mas ainda não está em uso.
 
-Estados distinguem planejamento, implementação local e validação. Fontes: [requisitos](docs/requisitos/especificacao-requisitos.md), [atividade](docs/continuidade/README.md), [lacunas](docs/requisitos/rastreabilidade.md).
+[Requisitos](docs/requisitos/especificacao-requisitos.md) · [Atividade](docs/continuidade/README.md) · [Pendências](docs/requisitos/rastreabilidade.md)

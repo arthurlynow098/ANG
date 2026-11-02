@@ -1,9 +1,11 @@
-# Testes e validação — O-BRECHÓ
+# Testes
 
-- [Plano preenchido e evidências](plano-e-evidencias-de-testes.md).
-- [Saída técnica registrada](verificacao-tecnica.txt): build e TypeScript da reorganização inicial.
-- [Roteiro de avaliação com a ANG](roteiro-avaliacao-usuarios.md): proposta ainda não executada.
-- [Evidência visual fornecida](../prototipos/fichas-de-telas.md): protótipo HTML documentado pela equipe.
-- [Inspeção visual do React atual](../prototipos/atual/README.md): login e navegação por dez telas, sem confirmar operações comerciais.
+O build e a verificação de tipos passaram na primeira publicação. O login e a navegação pelas telas também foram conferidos. Ainda precisamos executar os testes completos de cadastro, triagem e venda e avaliar o sistema com a ANG.
 
-Os cenários CT-01–CT-08 seguem RF01–RF08. Capturas e descrição de comportamento nos PDFs são evidências documentais de uma versão anterior, não resultados de testes novos no React. Não foi fornecido aprovação da ANG.
+| Registro | Conteúdo |
+|---|---|
+| [Plano de testes](plano-e-evidencias-de-testes.md) | Cenários CT-01 a CT-08 e resultados disponíveis |
+| [Verificação técnica](verificacao-tecnica.txt) | Saída do build e da checagem de tipos |
+| [Avaliação com a ANG](roteiro-avaliacao-usuarios.md) | Tarefas propostas para a gestora e a equipe operacional |
+| [Telas atuais](../prototipos/atual/README.md) | Navegação na aplicação React |
+| [Primeiro protótipo](../prototipos/fichas-de-telas.md) | Telas e funcionamento da versão HTML |

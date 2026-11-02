@@ -1,6 +1,6 @@
 # Referencial teórico e pesquisa de similares
 
-O [estudo original](fontes/2209ANG.pdf), páginas 9–14, contém o material de pesquisa da equipe. Os links abaixo abrem as páginas de cada tema.
+A pesquisa aborda a operação de brechós, o reaproveitamento de roupas e sistemas de gestão. [Estudo completo](fontes/2209ANG.pdf).
 
 | Tema documentado | Páginas | Relação com o projeto |
 |---|---|---|
@@ -15,4 +15,4 @@ O [estudo original](fontes/2209ANG.pdf), páginas 9–14, contém o material de 
 | Centraliza, Hiper e SULTS | [Ver página 13](evidencias/estudo-ang/pagina-13.png) | Pesquisa de soluções similares realizada pela equipe |
 | Inventarum / Stockify | [Ver página 14](evidencias/estudo-ang/pagina-14.png) | Pesquisa de inventário realizada pela equipe |
 
-Algumas referências do PDF são buscas ou links incompletos. Para a versão final acadêmica, completar autoria, título, ano, dados editoriais e referências conforme orientação institucional. O conteúdo original permanece disponível nas [capturas](evidencias/estudo-ang/README.md).
+Falta completar algumas referências com autor, título, ano e dados da publicação. [Páginas da pesquisa](evidencias/estudo-ang/README.md).

@@ -4,7 +4,7 @@
 
 ![Diagrama de classes extraído da página 31](imagens/diagrama-classes-original.jpeg)
 
-Fonte: [Ver página 31](../academico/evidencias/estudo-ang/pagina-31.png). A imagem foi extraída diretamente do PDF.
+[Modelo no estudo, página 31](../academico/evidencias/estudo-ang/pagina-31.png).
 
 ## Responsabilidades
 
@@ -39,4 +39,4 @@ classDiagram
     Funcionario "1" --> "0..*" Triagem : realiza
 ```
 
-Este mapa resume relações dos tipos e restrições SQL, não acrescenta classes ausentes. O SQL não impõe unicidade de `ITEM_VENDA.produto_id`; a intenção de venda única por peça depende da regra de aplicação. `PAGAMENTO.venda_id` é único, mas o SQL não força a existência de um pagamento para toda venda. Consulte o [dicionário](../der/dicionario-de-dados.md).
+O SQL não impõe unicidade de `ITEM_VENDA.produto_id`; a intenção de venda única por peça depende da regra de aplicação. `PAGAMENTO.venda_id` é único, mas o SQL não força a existência de um pagamento para toda venda. Consulte o [dicionário](../der/dicionario-de-dados.md).

@@ -1,4 +1,4 @@
-# Organização em camadas — O-BRECHÓ
+# Organização em camadas
 
 O frontend atual executa inteiramente no navegador. Separar serviços e repositório no TypeScript não cria um backend ou banco relacional.
 

@@ -1,6 +1,6 @@
-# Capturas — 2209ANG.pdf
+# Capturas - 2209ANG.pdf
 
-Fonte: [2209ANG.pdf](../../fontes/2209ANG.pdf). Páginas renderizadas diretamente do PDF, sem alterar a imagem.
+[2209ANG.pdf](../../fontes/2209ANG.pdf)
 
 ## Página 1
 

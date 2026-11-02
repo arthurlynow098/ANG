@@ -1,8 +1,8 @@
-# Visão arquitetural — O-BRECHÓ
+# Visão arquitetural
 
 ## 1. Identificação e escopo
 
-Projeto ANG, aplicação web demonstrativa e planejamento acadêmico de 2026. Esta visão descreve a implementação atual e as diferenças para a [Ver página 6](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png). Atualizada em 2026-10-27.
+O O-BRECHÓ é uma aplicação web em React e TypeScript. A versão atual roda no navegador. O backend e o banco compartilhado ainda estão planejados. [Tecnologias previstas](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png).
 
 ## 2. Contexto e componentes atuais
 
@@ -17,9 +17,9 @@ flowchart LR
     M[Dados de demonstração] --> R
 ```
 
-O código efetivamente executado fica em `frontend/`. Não há comunicação com uma API ou banco SQL nesta versão.
+O código da aplicação fica em `frontend/`. Não há comunicação com uma API ou banco SQL nesta versão.
 
-## 3. Responsabilidades e evidências
+## 3. Componentes
 
 | Elemento | Responsabilidade | Tecnologia e caminho | Estado |
 |---|---|---|---|
@@ -31,7 +31,7 @@ O código efetivamente executado fica em `frontend/`. Não há comunicação com
 | Build | Compilar e servir frontend | Vite 6, TypeScript, Tailwind | Build e tipos verificados |
 | Banco relacional | Estrutura SQL de referência | data/database/ | Não conectado |
 
-## 4. Tecnologias previstas versus presentes
+## 4. Tecnologias
 
 | Tecnologia | Planejamento documentado | Implementação atual |
 |---|---|---|
@@ -40,10 +40,10 @@ O código efetivamente executado fica em `frontend/`. Não há comunicação com
 | Node.js / TypeScript / Express | Backend previsto na atividade p. 6 | Node usado nas ferramentas; TypeScript no frontend; Express ausente |
 | PostgreSQL | Banco previsto na atividade p. 6 | Sem integração; SQL existente tem sintaxe MySQL |
 
-Antes de integrar dados, decidir como migrar/revisar o SQL existente para a tecnologia adotada. Não alterar a descrição de planejamento para fazer parecer que o backend existe.
+Precisamos adaptar os scripts MySQL para o banco escolhido antes de conectar o frontend ao backend.
 
 ## 5. O que falta e próximos passos
 
-Autenticação é demonstrativa e não representa autorização segura. A função chamada `gerarSenhaHash` não é SHA-256 criptográfico; a senha padrão é aceita pelo serviço. A persistência é isolada por navegador e pode ser apagada localmente. RNF01, RNF02, RNF05 e RNF07 exigem evolução e validação próprias.
+O login ainda usa contas de demonstração e aceita a senha padrão. A função `gerarSenhaHash` precisa ser substituída por um método adequado para uso real. Os dados ficam no navegador e ainda não são compartilhados entre computadores. Essas mudanças fazem parte dos requisitos RNF01, RNF02, RNF05 e RNF07.
 
-As visões de contexto, componentes e domínio são suficientes para explicar esta entrega. Um backend futuro exigirá atualizar a comunicação, autenticação, transações e persistência. [Backlog](../../PRODUCT-BACKLOG.md), [decisões](../decisoes/README.md) e [rastreabilidade](../requisitos/rastreabilidade.md).
+O próximo passo é criar o backend e integrar autenticação, vendas e armazenamento dos dados. [Backlog](../../PRODUCT-BACKLOG.md), [decisões](../decisoes/README.md) e [rastreabilidade](../requisitos/rastreabilidade.md).

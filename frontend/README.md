@@ -1,4 +1,4 @@
-# Frontend — O-BRECHÓ
+# Frontend
 
 React 18, TypeScript, Vite 6 e Tailwind CSS. Todos os serviços atuais executam no navegador; não há API externa nem variáveis de ambiente obrigatórias.
 

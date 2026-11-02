@@ -25,7 +25,7 @@ O projeto busca reunir as informações de estoque, clientes, vendas e caixa, re
 | O caixa é único, e a forma de pagamento precisa ser registrada | [Página 8](evidencias/estudo-ang/pagina-08.png) |
 | A receita das vendas é destinada à ANG | [Página 8](evidencias/estudo-ang/pagina-08.png) |
 
-Ter atendimento com horário marcado não significa que o sistema terá uma agenda. A equipe deixou esse módulo fora do escopo atual. [Ver ajuste da equipe](https://github.com/arthurlynow098/ANG/commit/0065fc8).
+Os atendimentos têm horário marcado, mas a agenda não faz parte do sistema. [Ver ajuste da equipe](https://github.com/arthurlynow098/ANG/commit/0065fc8).
 
 ## Quem faz parte da equipe?
 
@@ -36,7 +36,7 @@ Ter atendimento com horário marcado não significa que o sistema terá uma agen
 | Gustavo Henrique Oliveira da Silva | UI/UX e Desenvolvedor Frontend Júnior | Desenho das telas, experiência de uso e programação da interface |
 | Tiago Pereira Cortes | PM/PO Júnior | Requisitos, prioridades, tarefas, escopo e comunicação da equipe |
 
-As responsabilidades estão na [página 6 do estudo](evidencias/estudo-ang/pagina-06.png). A escrita dos nomes segue o [README atualizado pela equipe](https://github.com/arthurlynow098/ANG/commit/0065fc8). As entregas e as horas realizadas por cada pessoa ainda precisam ser registradas.
+[Responsabilidades no estudo](evidencias/estudo-ang/pagina-06.png). Falta registrar as entregas e as horas realizadas por cada integrante.
 
 ## Quanto trabalho foi estimado?
 
@@ -46,12 +46,12 @@ As responsabilidades estão na [página 6 do estudo](evidencias/estudo-ang/pagin
 | Gustavo / UI/UX e Frontend Jr. | R$ 35,00 | 50 | R$ 1.750,00 | [Página 6](evidencias/estudo-ang/pagina-06.png) |
 | Tiago / PM/PO Jr. | R$ 45,00 | 40 | R$ 1.800,00 | [Página 6](evidencias/estudo-ang/pagina-06.png) |
 | Arthur / Desenvolvedor Jr. | R$ 40,00 | 80 | R$ 3.200,00 | [Páginas 6](evidencias/estudo-ang/pagina-06.png) e [7](evidencias/estudo-ang/pagina-07.png) |
-| **Total** | — | **230** | **R$ 9.750,00** | [Página 7](evidencias/estudo-ang/pagina-07.png) |
+| **Total** | - | **230** | **R$ 9.750,00** | [Página 7](evidencias/estudo-ang/pagina-07.png) |
 
-Esses valores são uma previsão de custo do projeto. Não são despesas já pagas pela ANG.
+Estimativa de trabalho para o projeto, ainda sem registro de gastos realizados.
 
 ## De onde vieram os requisitos?
 
-O estudo relata que a equipe reuniu informações com os responsáveis pela ANG, analisou a rotina e pesquisou sistemas parecidos. [Ver página 15](evidencias/estudo-ang/pagina-15.png).
+Levantamos os requisitos com os responsáveis pela ANG, analisamos a rotina do brechó e pesquisamos sistemas parecidos. [Ver página 15](evidencias/estudo-ang/pagina-15.png).
 
 A proposta inicial é de gestão interna. Ela não inclui loja virtual, entregas, várias unidades, consignação ou avaliação automática das doações. [Ver página 14](evidencias/estudo-ang/pagina-14.png).

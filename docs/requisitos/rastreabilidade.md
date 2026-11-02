@@ -1,6 +1,6 @@
-# Requisitos: o que já existe e o que falta
+# Acompanhamento dos requisitos
 
-Esta tabela mostra o que já existe e o que falta em cada requisito. As fontes de cada requisito estão na [especificação](especificacao-requisitos.md). Os nomes dos arquivos abaixo são links para o código.
+[Especificação dos requisitos](especificacao-requisitos.md) · [Plano de testes](../testes/plano-e-evidencias-de-testes.md)
 
 | Requisito | Caso de uso / teste | Onde está no código | O que falta conferir ou ajustar |
 |---|---|---|---|
@@ -19,11 +19,11 @@ Esta tabela mostra o que já existe e o que falta em cada requisito. As fontes d
 |---|---|---|---|
 | Backend | [Ver página 6](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png): Node.js + TypeScript + Express | Não implementado | PB-06 |
 | Banco | [Ver página 6](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png): PostgreSQL | SQL existente usa AUTO_INCREMENT, de MySQL; frontend usa localStorage | PB-13: decidir migração antes da integração |
-| Componentes visuais | [Ver página 6](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png): Shadcn/UI | React e Tailwind; Shadcn/UI não instalado | Documentar diferença sem declarar adoção |
+| Componentes visuais | [Ver página 6](../continuidade/evidencias/atividade-29-09-2026/pagina-06.png): Shadcn/UI | React e Tailwind; Shadcn/UI não instalado | Adoção ainda pendente |
 | Agenda e relatório como classes | [Ver página 31](../academico/evidencias/estudo-ang/pagina-31.png): Agendamento e Relatorio | Não existem no SQL atual | Agenda fora do escopo atual; desenho original mantido para consulta |
 | Aprovação exclusiva | [Ver página 4](../academico/evidencias/estudo-ang/pagina-04.png) · [Ver página 7](../academico/evidencias/estudo-ang/pagina-07.png): gestora Aline | Interface permite operação por outros perfis autenticados | PB-12 |
 | Cadastro anterior à aprovação | [Ver página 7](../academico/evidencias/estudo-ang/pagina-07.png): cadastro após aprovação | Repositório registra PRODUTO pendente para rastrear triagem | Definir distinção entre registro interno e catálogo comercial |
-| Dados nas telas | [Ver página 6](../prototipos/evidencias/telas-ang/pagina-06.png) e [14](../prototipos/evidencias/telas-ang/pagina-14.png) | Protótipo possui números estáticos; React calcula seu próprio resumo | Não tratar números demonstrativos como dados financeiros reais |
+| Dados nas telas | [Ver página 6](../prototipos/evidencias/telas-ang/pagina-06.png) e [14](../prototipos/evidencias/telas-ang/pagina-14.png) | Protótipo possui números estáticos; React calcula seu próprio resumo | Usar dados de exemplo durante o desenvolvimento |
 
 ## Sobre os códigos usados
 

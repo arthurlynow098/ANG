@@ -1,10 +1,16 @@
-# Arquitetura — O-BRECHÓ
+# Arquitetura
 
-- [Visão arquitetural](visao-arquitetural.md): componentes implementados e stack planejada.
-- [Classes de domínio](diagrama-classes.md): imagem original, entidades e diferenças para o SQL.
-- [Organização em camadas](ARQUITETURA.md): descrição da estrutura React.
-- [DER e dicionário](../der/README.md): estrutura dos nove registros atuais.
+A aplicação usa React e TypeScript. As telas, regras de negócio e acesso aos dados ficam separados em camadas.
 
-![Modelo de domínio original da equipe](imagens/diagrama-classes-original.jpeg)
+| Documento | Conteúdo |
+|---|---|
+| [Visão geral](visao-arquitetural.md) | Componentes atuais e tecnologias planejadas |
+| [Classes de domínio](diagrama-classes.md) | Entidades e responsabilidades |
+| [Organização em camadas](ARQUITETURA.md) | Estrutura das pastas do frontend |
+| [DER e dicionário](../der/README.md) | Estrutura dos dados |
 
-Fonte: estudo `2209ANG.pdf`, página 31. O modelo conceitual contém Agendamento e Relatorio, ausentes no banco e nos tipos atuais; não representa uma lista de classes já implementadas.
+![Modelo de domínio](imagens/diagrama-classes-original.jpeg)
+
+[Modelo no estudo, página 31](../academico/evidencias/estudo-ang/pagina-31.png).
+
+Agendamento e Relatorio aparecem no desenho inicial, mas não existem como entidades no banco atual. A agenda está fora do escopo desta versão.

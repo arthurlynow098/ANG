@@ -1,4 +1,4 @@
-# Diagrama Entidade-Relacionamento (DER) — O-BRECHÓ (Projeto ANG)
+# Diagrama Entidade-Relacionamento (DER) - O-BRECHÓ (Projeto ANG)
 
 Este documento descreve a modelagem relacional existente do sistema **O-BRECHÓ**, composta estritamente por **9 tabelas**.
 

@@ -1,10 +1,8 @@
-# Aplicacao em React - capturas atuais
+# Telas atuais em React
 
-Capturas reais realizadas em 2026-10-27, no Chrome.
+Telas de 27/10/2026, com acesso de Administrador. Os nomes, contatos e valores são dados de exemplo.
 
-Foi realizado login pelo acesso demonstrativo de Administrador e navegacao pelas telas. Os nomes, contatos e valores sao exemplo, sem relacao comprovada com registros operacionais reais da ANG.
-
-[Registro tecnico](capturas.json)  [Prototipo anterior](../fichas-de-telas.md)  [Requisitos e lacunas](../../requisitos/rastreabilidade.md)
+[Registro das capturas](capturas.json) · [Primeiro protótipo](../fichas-de-telas.md) · [Pendências](../../requisitos/rastreabilidade.md)
 
 | Tela | Captura |
 |---|---|

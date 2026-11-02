@@ -1,17 +1,17 @@
 # Documentos do projeto
 
-Aqui estão os quatro PDFs da equipe. Você pode abrir o arquivo completo ou ver as imagens de suas páginas.
+Estudo, atividade de acompanhamento, requisitos e telas do O-BRECHÓ.
 
 | Documento | O que contém | PDF | Páginas em imagem |
 |---|---|---|---|
-| Estudo da ANG — 31 páginas | Contexto, equipe, custos estimados, requisitos e casos de uso | [Abrir PDF](academico/fontes/2209ANG.pdf) | [Ver páginas](academico/evidencias/estudo-ang/README.md) |
-| Atividade — 6 páginas | Andamento do projeto e tecnologias planejadas | [Abrir PDF](continuidade/fontes/Pi%20Atividade%2029_09_26pdf.pdf) | [Ver páginas](continuidade/evidencias/atividade-29-09-2026/README.md) |
-| Requisitos funcionais — 5 páginas | Oito requisitos e diagrama de casos de uso | [Abrir PDF](requisitos/fontes/RequisitosFuncionais_ANG.pdf) | [Ver páginas](requisitos/evidencias/requisitos-funcionais/README.md) |
-| Telas — 17 páginas | Imagens e explicações do primeiro protótipo | [Abrir PDF](prototipos/fontes/telasANG.pdf) | [Ver páginas](prototipos/evidencias/telas-ang/README.md) |
+| Estudo da ANG (31 páginas) | Contexto, equipe, custos estimados, requisitos e casos de uso | [Abrir PDF](academico/fontes/2209ANG.pdf) | [Ver páginas](academico/evidencias/estudo-ang/README.md) |
+| Atividade (6 páginas) | Andamento do projeto e tecnologias planejadas | [Abrir PDF](continuidade/fontes/Pi%20Atividade%2029_09_26pdf.pdf) | [Ver páginas](continuidade/evidencias/atividade-29-09-2026/README.md) |
+| Requisitos funcionais (5 páginas) | Oito requisitos e diagrama de casos de uso | [Abrir PDF](requisitos/fontes/RequisitosFuncionais_ANG.pdf) | [Ver páginas](requisitos/evidencias/requisitos-funcionais/README.md) |
+| Telas (17 páginas) | Imagens e explicações do primeiro protótipo | [Abrir PDF](prototipos/fontes/telasANG.pdf) | [Ver páginas](prototipos/evidencias/telas-ang/README.md) |
 
-## Encontre a informação sem procurar no PDF inteiro
+## Consulta por assunto
 
-Os links **“Ver página”** abrem a imagem da página usada como fonte. Assim, você vê a informação com um clique. A contagem começa na primeira página do arquivo, mesmo quando o número impresso no documento é diferente.
+As páginas seguem a ordem do arquivo, contando a capa.
 
 | Informação | Onde conferir |
 |---|---|

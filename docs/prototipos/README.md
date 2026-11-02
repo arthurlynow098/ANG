@@ -1,18 +1,16 @@
-# Telas e protótipos — ANG
+# Telas do sistema
 
-## Aplicação React atual
+## Versão atual
 
-[Galeria das dez telas atuais](atual/README.md) · [Registro da captura](atual/capturas.json)
+[Telas em React](atual/README.md) · [Registro das capturas](atual/capturas.json)
 
-![Painel atual da aplicação React](atual/02-inicio.png)
+![Painel atual](atual/02-inicio.png)
 
-Capturas realizadas em navegador local a partir do código do repositório, com perfil isolado e dados de demonstração. A inspeção percorreu login, painel, triagem, catálogo, cadastro, venda, clientes, estoque, caixa e equipe. Nenhuma venda, doação ou cadastro foi confirmado.
+A aplicação reúne doações, triagem, produtos, vendas, clientes, estoque, caixa e equipe. As telas usam dados de exemplo.
 
-## Protótipo HTML documentado pela equipe
+## Primeiro protótipo
 
-As **13 capturas abaixo foram extraídas diretamente do PDF da equipe**, sem reconstruir ou alterar as interfaces. São evidências do protótipo HTML documentado, com dados de demonstração.
-
-[Galeria completa e fichas das telas](fichas-de-telas.md) · [PDF original, 17 páginas](fontes/telasANG.pdf) · [Capturas de todas as páginas](evidencias/telas-ang/README.md) · [Protótipo HTML preservado](Protótipo_inicial_0.html)
+[Telas e funcionamento](fichas-de-telas.md) · [Documento em PDF](fontes/telasANG.pdf) · [Páginas do documento](evidencias/telas-ang/README.md) · [Protótipo em HTML](Protótipo_inicial_0.html)
 
 | Acesso | Operação |
 |---|---|
@@ -20,8 +18,8 @@ As **13 capturas abaixo foram extraídas diretamente do PDF da equipe**, sem rec
 | ![Produtos](imagens/04-produtos.png) | ![Venda](imagens/06-venda-cliente-cadastrado.png) |
 | ![Clientes](imagens/08-clientes.png) | ![Estoque](imagens/10-estoque.png) |
 
-## Relação com a versão atual
+## Evolução das telas
 
-O PDF descreve uma versão HTML com indicadores fixos, dois usuários de demonstração e área de atendentes apenas consultiva. O React atual acrescenta triagem, cadastro/edição de funcionários e resumo calculado a partir do estado local. As imagens extraídas do PDF pertencem à versão HTML; as novas capturas ficam na galeria React. Nenhuma das galerias apresenta dados operacionais reais de clientes ou de faturamento.
+O primeiro protótipo foi feito em HTML e tinha indicadores fixos. A versão em React acrescentou triagem, cadastro e edição de funcionários e cálculo do resumo de caixa a partir dos dados salvos.
 
-Veja as [fichas](fichas-de-telas.md) e a [rastreabilidade](../requisitos/rastreabilidade.md) para diferenças e pendências.
+[Comparação das telas](fichas-de-telas.md) · [Pendências do sistema](../requisitos/rastreabilidade.md)

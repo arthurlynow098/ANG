@@ -1,8 +1,8 @@
-# Casos de uso detalhados — O-BRECHÓ
+# Casos de uso detalhados
 
-Os oito casos abaixo seguem os requisitos RF01–RF08. Cada ficha tem links para as páginas do estudo que descrevem a operação.
+As operações do sistema são divididas entre atendimento, administração e triagem.
 
-## UC01 — Cadastro de clientes
+## UC01 - Cadastro de clientes
 
 | Campo | Informação |
 |---|---|
@@ -11,7 +11,7 @@ Os oito casos abaixo seguem os requisitos RF01–RF08. Cada ficha tem links para
 | Origem | [Ver página 22](../academico/evidencias/estudo-ang/pagina-22.png) · [Ver página 23](../academico/evidencias/estudo-ang/pagina-23.png) |
 | Pré-condições | Atendente autenticado. |
 | Pós-condições | Cliente registrado com identificação e contato. |
-| Requisitos especiais | Não especificados no campo correspondente do estudo; aplicam-se os RNF gerais pertinentes |
+| Requisitos especiais | Aplicam-se os requisitos gerais de qualidade e acesso |
 
 ### Fluxo principal
 
@@ -30,11 +30,13 @@ Os oito casos abaixo seguem os requisitos RF01–RF08. Cada ficha tem links para
 
 ### Relação com a implementação
 
-Código em `frontend/src/`: `views/clientes/ClientesView.tsx`. Cadastro existe; o tratamento de duplicidade e os critérios de contato precisam de execução de CT-01.
+[views/clientes/ClientesView.tsx](../../frontend/src/views/clientes/ClientesView.tsx)
 
-Teste planejado: **CT-01**. Execução e aprovação pendentes.
+Cadastro existe; o tratamento de duplicidade e os critérios de contato precisam de execução de CT-01.
 
-## UC02 — Histórico de compras
+Teste CT-01 pendente.
+
+## UC02 - Histórico de compras
 
 | Campo | Informação |
 |---|---|
@@ -43,7 +45,7 @@ Teste planejado: **CT-01**. Execução e aprovação pendentes.
 | Origem | [Ver página 21](../academico/evidencias/estudo-ang/pagina-21.png) · [Ver página 22](../academico/evidencias/estudo-ang/pagina-22.png) |
 | Pré-condições | Administrador autenticado e cliente cadastrado. |
 | Pós-condições | Histórico do cliente apresentado. |
-| Requisitos especiais | Não especificados no campo correspondente do estudo; aplicam-se os RNF gerais pertinentes |
+| Requisitos especiais | Aplicam-se os requisitos gerais de qualidade e acesso |
 
 ### Fluxo principal
 
@@ -61,11 +63,13 @@ Teste planejado: **CT-01**. Execução e aprovação pendentes.
 
 ### Relação com a implementação
 
-Código em `frontend/src/`: `views/clientes/ClienteDetalheView.tsx`. A tela atual apresenta as vendas e produtos, mas não implementa o agrupamento por categoria previsto no fluxo.
+[views/clientes/ClienteDetalheView.tsx](../../frontend/src/views/clientes/ClienteDetalheView.tsx)
 
-Teste planejado: **CT-02**. Execução e aprovação pendentes.
+A tela atual apresenta as vendas e produtos, mas não implementa o agrupamento por categoria previsto no fluxo.
 
-## UC03 — Criar atendentes
+Teste CT-02 pendente.
+
+## UC03 - Criar atendentes
 
 | Campo | Informação |
 |---|---|
@@ -74,7 +78,7 @@ Teste planejado: **CT-02**. Execução e aprovação pendentes.
 | Origem | [Ver página 19](../academico/evidencias/estudo-ang/pagina-19.png) · [Ver página 20](../academico/evidencias/estudo-ang/pagina-20.png) |
 | Pré-condições | Administrador autenticado. |
 | Pós-condições | Atendente cadastrado com seus dados de acesso. |
-| Requisitos especiais | Não especificados no campo correspondente do estudo; aplicam-se os RNF gerais pertinentes |
+| Requisitos especiais | Aplicam-se os requisitos gerais de qualidade e acesso |
 
 ### Fluxo principal
 
@@ -92,11 +96,13 @@ Teste planejado: **CT-02**. Execução e aprovação pendentes.
 
 ### Relação com a implementação
 
-Código em `frontend/src/`: `views/equipe/AtendentesView.tsx`. Gestão local implementada com condições de interface por cargo; não há autorização segura de servidor.
+[views/equipe/AtendentesView.tsx](../../frontend/src/views/equipe/AtendentesView.tsx)
 
-Teste planejado: **CT-03**. Execução e aprovação pendentes.
+Gestão local implementada com condições de interface por cargo; não há autorização segura de servidor.
 
-## UC04 — Recebimento de doações
+Teste CT-03 pendente.
+
+## UC04 - Recebimento de doações
 
 | Campo | Informação |
 |---|---|
@@ -105,7 +111,7 @@ Teste planejado: **CT-03**. Execução e aprovação pendentes.
 | Origem | [Ver página 25](../academico/evidencias/estudo-ang/pagina-25.png) |
 | Pré-condições | Responsável autenticado e doação recebida. |
 | Pós-condições | Doação registrada como entrada. |
-| Requisitos especiais | Não especificados no campo correspondente do estudo; aplicam-se os RNF gerais pertinentes |
+| Requisitos especiais | Aplicam-se os requisitos gerais de qualidade e acesso |
 
 ### Fluxo principal
 
@@ -124,11 +130,13 @@ Teste planejado: **CT-03**. Execução e aprovação pendentes.
 
 ### Relação com a implementação
 
-Código em `frontend/src/`: `views/triagem/TriagemView.tsx e services/triagemService.ts`. O fluxo cria DOACAO, PRODUTO pendente e TRIAGEM. Cadastro direto de produto ainda precisa ser alinhado com a origem obrigatória.
+[views/triagem/TriagemView.tsx](../../frontend/src/views/triagem/TriagemView.tsx) · [services/triagemService.ts](../../frontend/src/services/triagemService.ts)
 
-Teste planejado: **CT-04**. Execução e aprovação pendentes.
+O fluxo cria DOACAO, PRODUTO pendente e TRIAGEM. Cadastro direto de produto ainda precisa ser alinhado com a origem obrigatória.
 
-## UC05 — Triagem e avaliação
+Teste CT-04 pendente.
+
+## UC05 - Triagem e avaliação
 
 | Campo | Informação |
 |---|---|
@@ -137,7 +145,7 @@ Teste planejado: **CT-04**. Execução e aprovação pendentes.
 | Origem | [Ver página 26](../academico/evidencias/estudo-ang/pagina-26.png) · [Ver página 27](../academico/evidencias/estudo-ang/pagina-27.png) |
 | Pré-condições | Responsável autenticado e itens recebidos por doação. |
 | Pós-condições | Resultado da avaliação e situação do produto registrados. |
-| Requisitos especiais | Não especificados no campo correspondente do estudo; aplicam-se os RNF gerais pertinentes |
+| Requisitos especiais | Aplicam-se os requisitos gerais de qualidade e acesso |
 
 ### Fluxo principal
 
@@ -157,11 +165,13 @@ Teste planejado: **CT-04**. Execução e aprovação pendentes.
 
 ### Relação com a implementação
 
-Código em `frontend/src/`: `views/triagem/TriagemView.tsx e context/BrechoContext.tsx`. Aprovação e descarte existem. O contexto do estudo (pp. 4 e 7) reserva aprovação final a Aline; essa exclusividade não está garantida no código.
+[views/triagem/TriagemView.tsx](../../frontend/src/views/triagem/TriagemView.tsx) · [context/BrechoContext.tsx](../../frontend/src/context/BrechoContext.tsx)
 
-Teste planejado: **CT-05**. Execução e aprovação pendentes.
+Aprovação e descarte existem. O contexto do estudo (pp. 4 e 7) reserva aprovação final a Aline; essa exclusividade não está garantida no código.
 
-## UC06 — Categorização de produtos
+Teste CT-05 pendente.
+
+## UC06 - Categorização de produtos
 
 | Campo | Informação |
 |---|---|
@@ -170,7 +180,7 @@ Teste planejado: **CT-05**. Execução e aprovação pendentes.
 | Origem | [Ver página 28](../academico/evidencias/estudo-ang/pagina-28.png) · [Ver página 29](../academico/evidencias/estudo-ang/pagina-29.png) |
 | Pré-condições | Responsável autenticado e produto aprovado. |
 | Pós-condições | Produto classificado e disponível para organização e consulta. |
-| Requisitos especiais | Não especificados no campo correspondente do estudo; aplicam-se os RNF gerais pertinentes |
+| Requisitos especiais | Aplicam-se os requisitos gerais de qualidade e acesso |
 
 ### Fluxo principal
 
@@ -190,11 +200,13 @@ Teste planejado: **CT-05**. Execução e aprovação pendentes.
 
 ### Relação com a implementação
 
-Código em `frontend/src/`: `views/produtos/ e views/triagem/TriagemView.tsx`. O React solicita categoria junto à aprovação, enquanto o fluxo documental separa as etapas. O seed de categorias também precisa de alinhamento.
+[views/produtos/](../../frontend/src/views/produtos/) · [views/triagem/TriagemView.tsx](../../frontend/src/views/triagem/TriagemView.tsx)
 
-Teste planejado: **CT-06**. Execução e aprovação pendentes.
+O React solicita categoria junto à aprovação, enquanto o fluxo documental separa as etapas. O seed de categorias também precisa de alinhamento.
 
-## UC07 — Registro de saídas/vendas
+Teste CT-06 pendente.
+
+## UC07 - Registro de saídas/vendas
 
 | Campo | Informação |
 |---|---|
@@ -203,7 +215,7 @@ Teste planejado: **CT-06**. Execução e aprovação pendentes.
 | Origem | [Ver página 23](../academico/evidencias/estudo-ang/pagina-23.png) · [Ver página 24](../academico/evidencias/estudo-ang/pagina-24.png) |
 | Pré-condições | Atendente autenticado e peças disponíveis. |
 | Pós-condições | Venda registrada, estoque atualizado e pagamento identificado. |
-| Requisitos especiais | Não especificados no campo correspondente do estudo; aplicam-se os RNF gerais pertinentes |
+| Requisitos especiais | Aplicam-se os requisitos gerais de qualidade e acesso |
 
 ### Fluxo principal
 
@@ -224,11 +236,13 @@ Teste planejado: **CT-06**. Execução e aprovação pendentes.
 
 ### Relação com a implementação
 
-Código em `frontend/src/`: `views/vendas/NovaVendaView.tsx e services/vendaService.ts`. O React usa peças unitárias e permite negociar valor; o protótipo anterior usava quantidades. Coerência entre total negociado e subtotais precisa ser verificada.
+[views/vendas/NovaVendaView.tsx](../../frontend/src/views/vendas/NovaVendaView.tsx) · [services/vendaService.ts](../../frontend/src/services/vendaService.ts)
 
-Teste planejado: **CT-07**. Execução e aprovação pendentes.
+O React usa peças unitárias e permite negociar valor; o protótipo anterior usava quantidades. Coerência entre total negociado e subtotais precisa ser verificada.
 
-## UC08 — Relatórios financeiros
+Teste CT-07 pendente.
+
+## UC08 - Relatórios financeiros
 
 | Campo | Informação |
 |---|---|
@@ -237,7 +251,7 @@ Teste planejado: **CT-07**. Execução e aprovação pendentes.
 | Origem | [Ver página 20](../academico/evidencias/estudo-ang/pagina-20.png) · [Ver página 21](../academico/evidencias/estudo-ang/pagina-21.png) |
 | Pré-condições | Administrador autenticado e vendas registradas. |
 | Pós-condições | Relatório financeiro apresentado. |
-| Requisitos especiais | Não especificados no campo correspondente do estudo; aplicam-se os RNF gerais pertinentes |
+| Requisitos especiais | Aplicam-se os requisitos gerais de qualidade e acesso |
 
 ### Fluxo principal
 
@@ -255,6 +269,8 @@ Teste planejado: **CT-07**. Execução e aprovação pendentes.
 
 ### Relação com a implementação
 
-Código em `frontend/src/`: `views/vendas/RelatoriosView.tsx`. A tela atual resume recebimentos e lista vendas, mas não seleciona período nem soma as peças vendidas por dia. RF08 está parcialmente implementado.
+[views/vendas/RelatoriosView.tsx](../../frontend/src/views/vendas/RelatoriosView.tsx)
 
-Teste planejado: **CT-08**. Execução e aprovação pendentes.
+A tela atual resume recebimentos e lista vendas, mas não seleciona período nem soma as peças vendidas por dia. RF08 está parcialmente implementado.
+
+Teste CT-08 pendente.
