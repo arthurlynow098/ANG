@@ -8,3 +8,7 @@
 | [Páginas do estudo](evidencias/estudo-ang/README.md) | Consulta por imagem |
 
 ![Capa do estudo](evidencias/estudo-ang/pagina-01.png)
+
+## Como consultar
+
+Comece pelo [contexto e pela equipe](contexto-e-equipe.md) para conhecer as responsabilidades e a estimativa de trabalho. Para consultar a pesquisa e conferir sua origem, use o [referencial teórico](referencial-teorico.md) junto ao [estudo original](fontes/2209ANG.pdf).
