@@ -1,6 +1,6 @@
 -- =============================================================================
 -- MIGRAÇÃO 001: Criação Estrita do Banco de Dados O-BRECHÓ (Projeto ANG)
--- Modelo Relacional Oficial (9 Tabelas)
+-- Modelo Relacional Oficial (lynow)
 -- =============================================================================
 
 -- 1. CLIENTE
