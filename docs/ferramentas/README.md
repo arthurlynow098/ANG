@@ -24,3 +24,7 @@ O script confere links, imagens, documentos e a lista de tarefas em CSV. O resul
 ## Telas da aplicação atual
 
 As dez imagens em `docs/prototipos/atual/` foram capturadas no Chrome, com o sistema rodando localmente e dados de exemplo. O arquivo `capturas.json` registra as telas e a configuração usada.
+
+## Como consultar
+
+Para atualizar as imagens dos PDFs, execute primeiro `importar_documentos.py`, conforme as instruções acima. Depois de alterar documentos, links ou imagens, execute `auditar_documentacao.py` e confira o [relatório de auditoria](../testes/auditoria-documentacao.json). Para consultar as capturas da aplicação, use o [índice das telas atuais](../prototipos/atual/README.md).
