@@ -12,14 +12,14 @@
 
 | Campo | Informação |
 |---|---|
-| **Projeto** | O-BRECHÓ da Associação Nova Geração (ANG) |
+| **Projeto** | O-BRECHÓ - Associação Nova Geração (ANG) |
 | **Instituição** | Faculdade de Tecnologia de Sorocaba (FATEC Sorocaba) |
 | **Curso** | Análise e Desenvolvimento de Sistemas (ADS) |
-| **Equipe** | Arthur Mendes Entsev, Eduardo Kioshi Yasuoka, Gustavo Henrique Oliveira da Silva e Tiago Pereira Cortes |
+| **Equipe** | Arthur Mendes Entsev, Eduardo Kioshi Yasuoka, Gustavo Henrique Oliveira da Silva e Thiago Pereira Cortez |
 | **Cliente / Parceiro** | Associação Nova Geração (ANG) |
 | **Disciplina / Etapa** | Projeto Integrador (PI) |
 | **Ano** | 2026 |
-| **Última atualização** | 02/11/2026 |
+| **Última atualização** | 03/11/2026 |
 
 [Capa do estudo](docs/academico/evidencias/estudo-ang/pagina-01.png) · [Associação Nova Geração](docs/continuidade/evidencias/atividade-29-09-2026/pagina-03.png) · [Equipe e custos estimados](docs/academico/contexto-e-equipe.md)
 
