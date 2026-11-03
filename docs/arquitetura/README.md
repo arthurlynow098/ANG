@@ -14,3 +14,7 @@ A aplicação usa React e TypeScript. As telas, regras de negócio e acesso aos 
 [Modelo no estudo, página 31](../academico/evidencias/estudo-ang/pagina-31.png).
 
 Agendamento e Relatorio aparecem no desenho inicial, mas não existem como entidades no banco atual. A agenda está fora do escopo desta versão.
+
+## Como consultar
+
+Leia a [visão arquitetural](visao-arquitetural.md) antes de consultar a [organização em camadas](ARQUITETURA.md). Use o [diagrama de classes](diagrama-classes.md) para entender o domínio e compare-o com o [modelo de dados](../der/README.md), observando os conceitos ainda não implementados.
