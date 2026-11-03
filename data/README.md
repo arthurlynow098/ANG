@@ -1,6 +1,6 @@
 # Scripts do banco de dados
 
-| Arquivo | Conteúdo |
+| Arquivo | Conteudo |
 |---|---|
 | [Migração inicial](database/migrations/001_init_schema.sql) | Criação das nove tabelas e seus relacionamentos |
 | [Carga inicial](database/seeds/001_initial_data.sql) | Dados de exemplo |
