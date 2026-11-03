@@ -6,7 +6,7 @@ As prioridades consideram as dependências entre as tarefas e os pontos que falt
 
 | ID | Item / necessidade | Prioridade proposta | Estado | Critério de conclusão | Origem / vínculo | Dependências |
 |---|---|---|---|---|---|---|
-| PB-01 | Acesso e sessão demonstrativos | Alta | Implementado localmente. Produção pendente | Verificar login e papéis. Substituir acesso demonstrativo antes do uso real | RNF01, RNF02 | PB-07 |
+| PB-01 | Acesso e sessão demonstrativos | Alta | Implementado localmente. Produção ainda pendente | Verificar login e papéis. Substituir acesso demonstrativo antes do uso real | RNF01, RNF02 | PB-07 |
 | PB-02 | Recebimento e triagem | Alta | Implementado parcialmente | Rastrear doação e resultado, assegurando regras de origem e aprovação | RF04, RF05 / CT-04, CT-05 | PB-12 |
 | PB-03 | Catálogo, categorias e estoque | Alta | Implementado. Alinhamento pendente | Usar categorias documentadas e restringir catálogo às peças aprovadas | RF06 / CT-06 | RF04, RF05 |
 | PB-04 | Vendas e resumo financeiro | Alta | Implementado parcialmente | Conferir baixa, pagamentos e cálculos de venda. Completar consulta por período | RF07, RF08 / CT-07, CT-08 | PB-11 |
