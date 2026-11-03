@@ -1,6 +1,6 @@
 # Frontend
 
-React 18, TypeScript, Vite 6 e Tailwind CSS. Todos os serviços atuais executam no navegador. Não há API externa nem variáveis de ambiente obrigatórias.
+React 18, TypeScript, Vite 6 e Tailwind CSS. Todos os serviços atuais executam no navegador. Não há API externa nem variáveis de ambiente de forma obrigatória.
 
 ## Instalação e execução
 
