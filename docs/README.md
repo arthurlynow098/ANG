@@ -25,4 +25,4 @@
 
 - [Telas atuais](prototipos/atual/README.md)
 - [Telas do primeiro protótipo](prototipos/fichas-de-telas.md)
-- [Ferramentas para gerar e conferir as imagens](ferramentas/README.md)
+- [Formas para gerar e conferir as imagens](ferramentas/README.md)
