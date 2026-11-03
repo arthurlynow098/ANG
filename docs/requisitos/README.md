@@ -11,3 +11,7 @@ O sistema deve atender ao cadastro de clientes, histórico de compras, gestão d
 | [Estudo completo](../academico/fontes/2209ANG.pdf) | Análise do projeto e requisitos de qualidade |
 
 ![Requisitos de clientes e triagem](evidencias/requisitos-funcionais/pagina-03.png)
+
+## Como consultar
+
+Leia a [especificação](especificacao-requisitos.md) para entender as funcionalidades e as regras do brechó. Use a [rastreabilidade](rastreabilidade.md) para distinguir o que está implementado do que permanece pendente e consulte os [casos de uso](../casos-de-uso/README.md) para os fluxos de operação.
