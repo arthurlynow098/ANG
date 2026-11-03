@@ -26,3 +26,11 @@
 - [Telas atuais](prototipos/atual/README.md)
 - [Telas do primeiro protótipo](prototipos/fichas-de-telas.md)
 - [Formas para gerar e conferir as imagens](ferramentas/README.md)
+
+## Roteiro de consulta
+
+1. Conheça o [contexto do projeto e a equipe](academico/README.md).
+2. Leia os [requisitos](requisitos/README.md) e os [casos de uso](casos-de-uso/README.md).
+3. Consulte a [arquitetura](arquitetura/README.md), o [modelo de dados](der/README.md) e as [telas](prototipos/README.md).
+4. Confira os [testes](testes/README.md), as [decisões](decisoes/README.md) e a [evolução do projeto](continuidade/README.md).
+5. Acompanhe as próximas entregas no [planejamento](backlog/README.md) e use as [ferramentas de documentação](ferramentas/README.md) para gerar imagens e conferir arquivos.
